@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+}
+
+/* Slideshow container */
+.slideshow-container {
+    max-width: 400px;
+
+}
+/*----------------------------------slideshow-container-@media---------------------*/
+@media only screen and (max-width: 600px){
+   .slideshow-container {
+    max-width: 400px;
+   margin-left: 70px;
+    margin-right: 70px;
+}  
+    
+}
+/* Fading animation */
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}

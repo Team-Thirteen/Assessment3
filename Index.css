@@ -1,0 +1,6 @@
+.flex-containerhead {
+    display: flex;
+    background-color: white;
+    border-left: 2px solid #b0cbb1;
+    border-right: 2px solid #b0cbb1;
+}
