@@ -1,13 +1,14 @@
 <!DOCTYPE html>
-<html lang="">
+<html lang="EN">
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
+    <link type="text/css" rel="stylesheet" href="PersonalInformation.css">
 </head>
 
 <body>
-    
+
     <div id="navbar">
         <a id="home" href="index.html">Home</a>
         <a id="team" href="personalInformation.html">The Team</a>
@@ -17,22 +18,100 @@
         <a id="tech" href="itTechnologies.html">IT Tecnologies</a>
         <a id="project" href="projectIdea.html">Project Idea</a>
     </div>
-    
-    <h1>The Team</h1>
-    
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi posuere tincidunt ipsum sit amet eleifend. Proin odio lorem, tempus et purus et, vehicula mollis odio. Nulla facilisi. Fusce a vehicula est. Vivamus maximus efficitur hendrerit. Quisque convallis elementum nibh, vel imperdiet quam egestas sit amet. Vestibulum maximus, lectus sit amet scelerisque hendrerit, ligula metus cursus purus, et commodo ipsum magna et nulla. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nam tincidunt, nisl ac aliquam mattis, odio magna convallis nisi, rhoncus cursus purus massa sodales felis. Nunc ut turpis sed sapien sollicitudin sollicitudin eu eget elit. Pellentesque hendrerit, mi a consequat volutpat, ipsum est viverra risus, vel suscipit est nulla et nisi. Donec fermentum vehicula libero, sit amet blandit arcu dignissim non. Aliquam gravida lobortis nunc, sit amet tincidunt diam.
 
-Mauris iaculis non ligula sed auctor. Praesent molestie risus feugiat dictum elementum. Curabitur malesuada, lectus eu luctus venenatis, ex libero lobortis mi, faucibus luctus libero ligula et sem. Quisque dictum mollis dapibus. Curabitur libero nisi, lobortis vitae nunc eleifend, lobortis consequat sem. Proin posuere, odio eu dictum cursus, augue felis condimentum elit, nec pulvinar purus mi ut enim. Vivamus arcu neque, dapibus sit amet ipsum in, fermentum gravida enim. Integer lacus nibh, auctor pulvinar varius in, tristique eget eros. Praesent eu odio interdum nisl porttitor aliquam.
+    <h1>Meet The Team</h1>
 
-Nullam quis dui ullamcorper augue volutpat posuere. Nam non lacus non odio malesuada interdum. Duis tincidunt euismod magna. Vestibulum id sapien massa. Aenean porta erat nec risus finibus dictum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Praesent quis efficitur augue. Proin tortor velit, pretium quis mollis et, aliquam non lacus. Donec sed posuere velit. Quisque vel neque convallis magna viverra posuere. Mauris mollis elit quis iaculis commodo.
 
-Vivamus eleifend sem quis rhoncus pharetra. Phasellus eros tellus, semper non nisl vel, sollicitudin iaculis nisl. Morbi non est vehicula, rutrum tortor eget, vestibulum magna. Nunc pulvinar massa sed suscipit tincidunt. Donec id leo consectetur, auctor velit id, viverra est. Ut euismod a mi nec fringilla. Pellentesque ut nisl ullamcorper, scelerisque odio quis, blandit odio. Aenean rhoncus, sapien non accumsan auctor, nibh arcu consectetur nibh, quis imperdiet eros nunc vel ipsum. Sed eleifend bibendum risus non congue. Cras ex tortor, condimentum sit amet tellus a, ornare placerat ante. Pellentesque eget interdum enim. Mauris eu velit est.
+    <!-- Tab links -->
+    <div class="tab">
+        <button class="tablinks" onclick="openTeamMember(event, 'Hayden')">Hayden Bleys</button>
+        <button class="tablinks" onclick="openTeamMember(event, 'James')">James Costello</button>
+        <button class="tablinks" onclick="openTeamMember(event, 'Geoffrey')">Geoffrey Davis</button>
+        <button class="tablinks" onclick="openTeamMember(event, 'Matthew')">Matthew Manriquez</button>
+        <button class="tablinks" onclick="openTeamMember(event, 'Jesse')">Jesse Watson</button>
+        <button class="tablinks" onclick="openTeamMember(event, 'Bradley')">Bradley Williams</button>
+    </div>
 
-Aenean blandit massa nibh, nec vulputate diam consequat ut. Sed hendrerit turpis eu eros elementum, id molestie sem pharetra. Ut id vehicula ante, sed porttitor lacus. Duis commodo mi id neque pellentesque, a sollicitudin velit feugiat. Donec ex lectus, sodales ut fermentum ac, efficitur a libero. Praesent cursus dui vitae urna sollicitudin, et iaculis orci facilisis. Etiam laoreet nisi ac magna pretium pulvinar. Phasellus a dictum tortor. Cras dignissim purus nec libero viverra tincidunt. Suspendisse pellentesque venenatis elementum. Sed mattis, enim ac lobortis rhoncus, enim elit ullamcorper nunc, non semper ipsum velit tempor enim. Pellentesque ut blandit arcu. Quisque vulputate rhoncus leo, at mattis odio aliquam consectetur.
 
-In lobortis ipsum tortor, et venenatis tellus dapibus sit amet. Proin lacinia ligula at urna tristique, non mattis nunc fermentum. In sodales elit diam, quis rhoncus libero mollis et. Nullam finibus lorem eget mattis viverra. Donec pretium mollis dui. Cras pellentesque sodales elit et maximus. Duis lorem lorem, dictum vitae nulla sit amet, tristique interdum sem. Aliquam auctor non erat id ullamcorper. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    <!-- Tab content -->
 
-Integer a lectus leo. Curabitur tincidunt at nisl nec varius. Mauris fermentum leo vel massa posuere, et aliquam arcu consectetur. Maecenas iaculis commodo ipsum ac pharetra. Nam non rutrum mauris. Ut porta pellentesque nunc, at semper.</p>
-    
+    <div id="Hayden" class="tabcontent">
+        <div class="flex-container">
+            <img src="Images/img2.jpg">
+            <div id="aboutInfo">
+                <h3>Hayden Bleys</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam maximus commodo efficitur. Praesent vestibulum, risus nec fringilla varius, sapien lacus finibus orci, rutrum dignissim nisl velit eu augue. Mauris urna augue, elementum eu elit a, suscipit convallis velit. Aenean egestas orci a laoreet sollicitudin. Proin eget mauris et felis venenatis tristique a nec ligula. Duis hendrerit, ante nec mollis pharetra, orci justo varius lectus, sit amet tempor urna erat vitae lacus. Nam sapien dui, laoreet sit amet ante quis, consequat lacinia mauris. Fusce elementum dictum justo a scelerisque. In auctor lacus eu euismod efficitur. Donec laoreet magna quis porttitor lacinia.</p>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="James" class="tabcontent">
+        <div class="flex-container">
+            <img src="Images/James.jpg">
+
+            <div id="aboutInfo">
+                <h3>James Costello</h3>
+                <p>Originally from the UK, I came out to live in Australia permanently in 2003.I have a Diploma in Software Development and an Advanced Diploma in Business Analysis through TAFE NSW. I love participating in sport and running is my passion, but you’ll also catch me out bushwalking or cycling. I recently have developed a love for motorbikes and I'm planning many road trips to come. I love Rock and Metal music, but you’ll find me buying tickets to a symphony. I have a Jack Russell cross named Banjo who loves to run with me once or twice a week. I am married (17 years and the reason I’m in Australia) and we have a daughter. </p>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="Geoffrey" class="tabcontent">
+        <div class="flex-container">
+            <img src="Images/Geoffrey.jpg">
+
+            <div id="aboutInfo">
+                <h3>Geoffrey Davis</h3>
+                <p>My name is Geoffrey Davis, I am 27 years of age and currently live in far north QLD Australia. I am an Australian citizen and unfortunately only speak English, I have though been lucky enough to have lived overseas for several years. I graduated high school in 2011 and then went on the starting a 4-year apprenticeship as a heavy diesel fitter, after completing my apprenticeship I had the opportunity to go work on a copper mine in Zambia (Africa) where I was based for 2 years working for the construction team finalizing the mine as it was in the process of getting build. </p>
+                <p>After my stint in Africa, I returned to Australia where I have been working in several industries such as hospitality and mechanic. My passion is WW2 aircraft, I love the background and history of the aircraft as well as the mechanics behind them, the mechanics behind dogfighting intrigue me and the skill that was required to fly back in the 1940s, I build model planes when I get time as well as fly on WW2 flight simulators. </p>
+                <p>My interest in IT started when I was a young boy, I have been a gamer since I can remember, I think because of that my interest in IT just grew from there. When I got my first computer, I started doing things like downloading games and movies through torrents as back then my internet was not so great so I could only really play single player games, after a bit I started to mod games and would run into Erros with files and system errors, being determined I use to scour the web trying to find the solution to the problem whether it be changing the games settings in notepad or changing IPs etc., all so I could solve the problem. While doing so I found myself really enjoying the fault-finding process and the satisfaction achieved when I finally fixed the issue. </p>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div id="Matthew" class="tabcontent">
+        <div class="flex-container">
+            <img src="Images/MattM.jpg">
+            <div id="aboutInfo">
+                <h3>Matthew Manriquez</h3>
+                <p>Hello, my name is Matt, and I'm 27 years old. I graduated from high school in the 12th grade. I'm now studying introduction to information technology and introduction to programming at RMIT. Some of my favourite pastimes are taking my pet dog Lola for a walk, watching sports, gaming, reading, and spending time with loved ones. I come from a Spanish family and can communicate in the language. </p>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="Jesse" class="tabcontent">
+        <div class="flex-container">
+            <img src="Images/Jesse.jpg">
+            <div id="aboutInfo">
+                <h3>Jesse Watson</h3>
+                <p>My name is Jesse Watson. I’m 17 years old and love technology. I’m one of those annoying Apple fans, but strangely working backwards with the products I buy - first an iPad, then a Mac and hopefully soon that slick iPhone 13 Mini. I value fitness; running and mountain biking being my favourite fitness activities. I also value my relationship with my family, friends and God. </p>
+                <p>In a team environment, I can struggle with putting myself out there, but I push through those barriers and have great experiences because of it. I also am quite a perfectionist and pride myself on being organised and on time. </p>
+                <p>I enjoy being creative, usually through the lens of a camera and the timeline in a video editing software (Final Cut Pro X). I have a YouTube channel where I share with the world these creations. And I’m now developing my creative muscle in programming. </p>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div id="Bradley" class="tabcontent">
+        <div class="flex-container">
+            <img src="Images/BradleyW.jpg">
+            <div id="aboutInfo">
+                <h3>Bradley Williams</h3>
+                <p>Hey, I am Bradley Williams, I live in Hobart, Tasmania, and I am 20 years old. I am Australian follow western culture and speak English with a very, very tiny bit of French from back in high school. I have a keen interest in IT and love gaming and also making pc’s. I have completed schooling all the way up to year 12. I love sport, especially AFL, Cricket, Soccer and the NBA. I support the Hawks, the Hurricanes in the BBL, Aston Villa in the premier league and OKC. </p>
+            </div>
+        </div>
+    </div>
+
+    <script src="PersonalInformation.js"></script>
+
+
+
 </body>
+
 </html>
