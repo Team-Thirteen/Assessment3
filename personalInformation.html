@@ -5,6 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link type="text/css" rel="stylesheet" href="PersonalInformation.css">
+    <link type="text/css" rel="stylesheet" href="Nav.css">
 </head>
 
 <body>
@@ -19,11 +20,14 @@
         <a id="project" href="projectIdea.html">Project Idea</a>
     </div>
 
-    <h1>Meet The Team</h1>
+
+
+
 
 
     <!-- Tab links -->
     <div class="tab">
+
         <button class="tablinks" onclick="openTeamMember(event, 'Hayden')">Hayden Bleys</button>
         <button class="tablinks" onclick="openTeamMember(event, 'James')">James Costello</button>
         <button class="tablinks" onclick="openTeamMember(event, 'Geoffrey')">Geoffrey Davis</button>
@@ -33,20 +37,42 @@
     </div>
 
 
+    <div id="theTeam" class="fade">
+        <h1>Meet The Team</h1>
+        </div>
+
+
+   
+
+    <div id="theTeamImages">
+        <img  class="fade1" src="Images/img2.jpg">
+        <img  class="fade2" src="Images/BradleyW.jpg">
+        <img  class="fade3" src="Images/James.jpg">
+        <img  class="fade4" src="Images/Jesse.jpg">
+        <img  class="fade5" src="Images/Geoffrey.jpg">
+        <img  class="fade6" src="Images/MattM.jpg">
+    </div>
+         
+
+
     <!-- Tab content -->
 
-    <div id="Hayden" class="tabcontent">
+    <div id="Hayden" class="tabcontent fade">
         <div class="flex-container">
             <img src="Images/img2.jpg">
             <div id="aboutInfo">
                 <h3>Hayden Bleys</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam maximus commodo efficitur. Praesent vestibulum, risus nec fringilla varius, sapien lacus finibus orci, rutrum dignissim nisl velit eu augue. Mauris urna augue, elementum eu elit a, suscipit convallis velit. Aenean egestas orci a laoreet sollicitudin. Proin eget mauris et felis venenatis tristique a nec ligula. Duis hendrerit, ante nec mollis pharetra, orci justo varius lectus, sit amet tempor urna erat vitae lacus. Nam sapien dui, laoreet sit amet ante quis, consequat lacinia mauris. Fusce elementum dictum justo a scelerisque. In auctor lacus eu euismod efficitur. Donec laoreet magna quis porttitor lacinia.</p>
+                <p>My name is Hayden Bleys and I am a Cheesemaker in addition to being a part time student enrolled in a Bachelor of Information Technology at RMIT, and have been a cheesemaker in my current employment since March 2021 but began my career of working in cheesemaking back in 2016, in addition to working I began studying IT in November of this year which is the first time I have undertaken formal study since completing high school in the year 2013. </p>
+
+                <p>Wondai is the town I was born in, it is a small historic town approximately 250km north-west of Brisbane and have spent a large portion of my life living in the region around Wondai as well as living in Brisbane and the Gold Coast in recent years. My family has been living in the south-eastern Queensland regions since the 19th century after my ancestors migrated from England and Denmark on my mother’s and father’s side of the family respectively. </p>
+
+                <p>I have an interest in Australian history from the colonial period up to the World Wars which I like to learn about from books, online sources, and oral records.</p>
             </div>
         </div>
     </div>
 
 
-    <div id="James" class="tabcontent">
+    <div id="James" class="tabcontent fade">
         <div class="flex-container">
             <img src="Images/James.jpg">
 
@@ -58,7 +84,7 @@
     </div>
 
 
-    <div id="Geoffrey" class="tabcontent">
+    <div id="Geoffrey" class="tabcontent fade">
         <div class="flex-container">
             <img src="Images/Geoffrey.jpg">
 
@@ -73,7 +99,7 @@
 
 
 
-    <div id="Matthew" class="tabcontent">
+    <div id="Matthew" class="tabcontent fade">
         <div class="flex-container">
             <img src="Images/MattM.jpg">
             <div id="aboutInfo">
@@ -84,7 +110,7 @@
     </div>
 
 
-    <div id="Jesse" class="tabcontent">
+    <div id="Jesse" class="tabcontent fade">
         <div class="flex-container">
             <img src="Images/Jesse.jpg">
             <div id="aboutInfo">
@@ -98,7 +124,7 @@
 
 
 
-    <div id="Bradley" class="tabcontent">
+    <div id="Bradley" class="tabcontent fade">
         <div class="flex-container">
             <img src="Images/BradleyW.jpg">
             <div id="aboutInfo">
@@ -107,11 +133,10 @@
             </div>
         </div>
     </div>
+    <!--</div>-->
 
     <script src="PersonalInformation.js"></script>
 
 
 
-</body>
-
-</html>
+</body></html>
