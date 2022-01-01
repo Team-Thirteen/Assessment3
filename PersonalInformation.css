@@ -3,6 +3,7 @@
   overflow: hidden;
   border: 1px solid #ccc;
   background-color: #f1f1f1;
+   
 }
 
 /* Style the buttons that are used to open the tab content*/
@@ -128,34 +129,14 @@ img {
 .fade2{
     
      -webkit-animation-name: fade;
-    -webkit-animation-duration: 4s;
-    animation-name: fade;
-    animation-duration: 4s;
-    
-}
-
-.fade3{
-    
-     -webkit-animation-name: fade;
     -webkit-animation-duration: 5s;
     animation-name: fade;
     animation-duration: 5s;
     
 }
 
-
-.fade4{
-   
-     -webkit-animation-name: fade;
-    -webkit-animation-duration: 6s;
-    animation-name: fade;
-    animation-duration: 6s;
+.fade3{
     
-}
-
-
-.fade5{
-   
      -webkit-animation-name: fade;
     -webkit-animation-duration: 7s;
     animation-name: fade;
@@ -163,15 +144,37 @@ img {
     
 }
 
+
+.fade4{
+   
+     -webkit-animation-name: fade;
+    -webkit-animation-duration: 9s;
+    animation-name: fade;
+    animation-duration: 9s;
+    
+}
+
+
+.fade5{
+   
+     -webkit-animation-name: fade;
+    -webkit-animation-duration: 11s;
+    animation-name: fade;
+    animation-duration: 11s;
+    
+}
+
 .fade6{
      
      -webkit-animation-name: fade;
-    -webkit-animation-duration: 8s;
+    -webkit-animation-duration: 13s;
     animation-name: fade;
-    animation-duration: 8s;
+    animation-duration: 13s;
    
     
 }
+
+
 
 
 
