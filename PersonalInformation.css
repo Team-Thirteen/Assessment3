@@ -1,44 +1,48 @@
-/* Style the tab */
-.tab {
-  overflow: hidden;
-  border: 1px solid #ccc;
-  background-color: #f1f1f1;
-   
-}
-
-/* Style the buttons that are used to open the tab content*/
-.tab button {
-  background-color: inherit;
-  float: left;    
-  border: none;
-  outline: none;
-  cursor: pointer;
-  padding: 14px 16px;
-  transition: 0.3s;
-}
-
-/* Change background color of buttons on hover */
-.tab button:hover {
-  background-color: #ddd;
-}
-
-/* Create an active/current tablink class */
-.tab button.active {
-  background-color: #ccc;
-}
-
-/* Style the tab content */
-.tabcontent {
-  display: none;
-  padding: 1em;
-  border: 1em solid black;  
-   background-color: black; 
-}
 
 body {
     background: black;
     color: white;
 }
+
+/* Style the tab */
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+
+}
+
+/* Style the buttons that are used to open the tab content*/
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    width: 16.66%;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+    background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 1em;
+    border: 1em solid black;
+    background-color: black;
+}
+
+
 
 
 
@@ -48,40 +52,41 @@ body {
     display: flex;
     flex-direction: row;
     background-color: black;
- border: 1em solid black; 
+    border: 1em groove green;
 }
 
 img {
-    border: 1em solid black;      
+    border: 1em solid black;
     max-width: 20%;
 }
 
 
 #aboutInfo {
-    
+
     color: white;
     text-decoration: none;
-    margin: 1em;
-    
+    margin: 2em;
+
 }
 
 #aboutInfo h3 {
     font-size: 2.5em;
     font-weight: 700;
-    font-family: 'Rokkitt', Helvetica, Arial, sans-serif;    
+    font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
     color: white;
+    margin-bottom: 2em;
 }
 
-#theTeam{    
+#theTeam {
     font-size: 5em;
     font-weight: 700;
-    font-family: 'Rokkitt', Helvetica, Arial, sans-serif;    
+    font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
     color: white;
     text-align: center;
 }
 
 #theTeamImages img {
-        float: left;
+    float: left;
     display: block;
     width: 13%;
     margin-left: 1.2em;
@@ -118,67 +123,212 @@ img {
 
 
 
-.fade1{
-     -webkit-animation-name: fade;
+.fade1 {
+    -webkit-animation-name: fade;
     -webkit-animation-duration: 3s;
     animation-name: fade;
     animation-duration: 3s;
-    
+
 }
 
-.fade2{
-    
-     -webkit-animation-name: fade;
+.fade2 {
+
+    -webkit-animation-name: fade;
     -webkit-animation-duration: 5s;
     animation-name: fade;
     animation-duration: 5s;
-    
+
 }
 
-.fade3{
-    
-     -webkit-animation-name: fade;
+.fade3 {
+
+    -webkit-animation-name: fade;
     -webkit-animation-duration: 7s;
     animation-name: fade;
     animation-duration: 7s;
-    
+
 }
 
 
-.fade4{
-   
-     -webkit-animation-name: fade;
+.fade4 {
+
+    -webkit-animation-name: fade;
     -webkit-animation-duration: 9s;
     animation-name: fade;
     animation-duration: 9s;
-    
+
 }
 
 
-.fade5{
-   
-     -webkit-animation-name: fade;
+.fade5 {
+
+    -webkit-animation-name: fade;
     -webkit-animation-duration: 11s;
     animation-name: fade;
     animation-duration: 11s;
-    
+
 }
 
-.fade6{
-     
-     -webkit-animation-name: fade;
+.fade6 {
+
+    -webkit-animation-name: fade;
     -webkit-animation-duration: 13s;
     animation-name: fade;
     animation-duration: 13s;
-   
-    
+
+
 }
 
 
+/*-------------------------Media Queries-------------------------*/
+
+@media all and (max-width: 600px) {
+
+    .flex-container {
+        display: block;
+        text-align: center;
+        border: 0.5em solid green;
+
+    }
+
+    .flex-container img {
+        width: 90%;
+        max-width: none;
+
+    }
+
+    #theTeam {
+        font-size: 3em;
+        font-weight: 700;
+        font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
+        color: pink;
+        text-align: center;
+
+    }
+
+    #theTeamImages img {
+        float: none;
+        max-width: none;
+        width: 80%;
+        border: .2em solid green;
+        margin: auto;
+    }
+
+}
+
+@media all and (min-width: 601px) and (max-width:992px) {
+
+    .flex-container {
+        display: block;
+        text-align: center;
+        border: 0.5em solid green;
+
+    }
+
+    .flex-container img {
+        width: 90%;
+        max-width: none;
+
+    }
 
 
+    #theTeam {
+        font-size: 3em;
+        font-weight: 700;
+        font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
+        color: yellow;
+        text-align: center;
+
+    }
+
+    #theTeamImages img {
+        float: none;
+        max-width: none;
+        width: 80%;
+        border: .2em solid pink;
+        margin: auto;
+    }
+}
+
+@media all and (min-width: 993px) and (max-width:1200px) {
+
+    .flex-container {
+        display: block;
+        text-align: center;
+        border: 0.5em solid green;
+
+    }
+
+    .flex-container img {
+        width: 70%;
+        max-width: none;
 
 
+    }
+
+    #theTeam {
+        font-size: 3em;
+        font-weight: 700;
+        font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
+        color: aqua;
+        text-align: center;
+
+    }
+
+    #theTeamImages img {
+        float: left;
+        display: block;
+        width: 12%;
+        margin-left: 0.8em;
+        border: 1em solid brown;
 
 
+    }
+}
 
+
+@media all and (min-width: 1201px) and (max-width:1420px) {
+    
+        
+    #theTeam {
+        font-size: 3em;
+        font-weight: 700;
+        font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
+        color: hotpink;
+        text-align: center;
+
+    }
+
+    #theTeamImages img {
+        float: left;
+        display: block;
+        width: 12%;
+        margin-left: 1.0em;
+        border: 1em solid green;
+    }
+
+
+}
+
+@media all and (min-width:1421px) and (max-width:1450px) {
+    
+    
+    #theTeam {
+        font-size: 3em;
+        font-weight: 700;
+        font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
+        color: skyblue;
+        text-align: center;
+
+    }
+
+    #theTeamImages img {
+        float: left;
+        display: block;
+        width: 12%;
+        margin-left: 1.2em;
+        border: 1em solid purple;
+    }
+
+
+}
