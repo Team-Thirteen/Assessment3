@@ -5,7 +5,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title></title>
-    <link rel="stylesheet" href="">
+    <link type="text/css" rel="stylesheet" href="ProjectIdea.css">
+    <link type="text/css" rel="stylesheet" href="Nav.css">
 </head>
 
 <body>
@@ -19,172 +20,183 @@
         <a id="project" href="projectIdea.html">Project Idea</a>
     </div>
 
-    <h1>ToDoTopia</h1>
+    <div class = "main" class = "fade">
+        <h1>ToDoTopia</h1>
 
-    <h2>What is ToDoTopia?</h2>
+        <!-- What? -->
 
-    <p>ToDoTopia is a platform that stores your tasks and anything to do with those tasks, such as comments and links to
-        Google Drive files. It’s also a game! ToDoTopia takes care of your to-dos and turns the hard effort you’ve put
-        into checking them off into gold, levels, fitness, armour and a village that you build with your team.</p>
+        <h2>What is ToDoTopia?</h2>
 
-    <h2>Who is ToDoTopia Made For?</h2>
+        <p>ToDoTopia is a platform that stores your tasks and anything to do with those tasks, such as comments and links to
+            Google Drive files. It’s also a game! ToDoTopia takes care of your to-dos and turns the hard effort you’ve put
+            into checking them off into gold, levels, fitness, armour and a village that you build with your team.</p>
 
-    <h3>The Individual.</h3>
+        <h2>Who is ToDoTopia Made For?</h2>
 
-    <p>Although ToDoTopia is focused on teams, you as the individual needs to be able to use it outside of work. You
-        might use your personal to-do lists for chores, preparing for a vacation or a home renovation project.</p>
+        <h3>The Individual.</h3>
 
-    <p>In the game, this means you are keeping fit. When you work on tasks outside of your job, your in-game character’s
-        fitness levels keep you ready for your next battle (which we’ll talk about later).</p>
+        <p>Although ToDoTopia is focused on teams, you as the individual needs to be able to use it outside of work. You
+            might use your personal to-do lists for chores, preparing for a vacation or a home renovation project.</p>
 
-    <h3>The Team.</h3>
+        <p>In the game, this means you are keeping fit. When you work on tasks outside of your job, your in-game character’s
+            fitness levels keep you ready for your next battle (which we’ll talk about later).</p>
 
-    <p>So, every member of the team — or every citizen of your village — has a fitness level they need to maintain. But
-        what about tasks at work? What about group projects? ToDoTopia can be used for every area of your life. But we
-        realised that the way we organise tasks at work should be different from the way we organise our chores at home.
-    </p>
+        <h3>The Team.</h3>
 
-    <p>Here is how the app is organised:</p>
+        <p>So, every member of the team — or every citizen of your village — has a fitness level they need to maintain. But
+            what about tasks at work? What about group projects? ToDoTopia can be used for every area of your life. But we
+            realised that the way we organise tasks at work should be different from the way we organise our chores at home.
+        </p>
 
-    <ul>
-        <li>You (your personal lists)</li>
-        <li>Team 1 (tasks & projects for Team 1)</li>
-        <li>Team 2 (tasks & projects for Team 2)</li>
-    </ul>
+        <p>Here is how the app is organised:</p>
 
-    <p>Here’s an example of how the application might be organised for an IT student at RMIT:</p>
+        <ul>
+            <li>You (your personal lists)</li>
+            <li>Team 1 (tasks & projects for Team 1)</li>
+            <li>Team 2 (tasks & projects for Team 2)</li>
+        </ul>
 
-    <ul>
-        <li>You</li>
-            <li class = 'li.2'>Chores</li>
-                <li class = 'li.3'>[ ] Make Dinner</li>
-                <li class = 'li.3'>[ ] Take dog for walk 🐕</li>
-            <li class = 'li.2'>Trip to Tasmania</li>
-                <li class = 'li.3'>[x] Book tickets ✈</li>
-                <li class = 'li.3'>[ ] Plan itinerary</li>
-        <li>Team Thirteen</li>
-            <li class = 'li.2'>Assignment 2</li>
-                <li class = 'li.3'>[ ]Team Profile</li>
-                    <li class = 'li.4'>[x] Copy & paste everyone’s personal profiles from A1</li>
-                    <li class = 'li.4'>[ ] @James touch it up ✨</li>
-                <li class = 'li.3'>[ ] IT Jobs</li>
-                    <li class = 'li.4'>[x] List everyone’s ideal jobs</li>
-                    <li class = 'li.4'>[ ] @Geoffrey make it look good 😎</li>
-                <li class = 'li.3'>[x] Project Idea</li>
-                    <li class = 'li.4'>[x] Decide on project idea</li>
-                    <li class = 'li.4'>[x] @Jesse outline it in detail 📝</li>
-                <li class = 'li.3'>[ ] Presentation (website)</li>
-                    <li class = 'li.4'>[x] @James code main layout</li>
-                    <li class = 'li.4'>[ ] Everyone code a page 👨‍💻</li>
-    </ul>
+        <p>Here’s an example of how the application might be organised for an IT student at RMIT:</p>
 
-    <p>It might be hard to understand the layout of the application from the above, but what you just saw is the layout
-        of an average to-do list app. And although this layout still works really well, we wanted to add some flavour to
-        it — we wanted to make it more... usable.</p>
+        <!-- List: class tags 'li.2' etc. are for CSS indenting. -->
 
-    <p>As you enter the list & projects menu, you will see a list of the personal to-do lists you have under a ‘You’
-        header (Chores & Trip to Tasmania in the above example). Then, under the ‘You’ header you will see the names of
-        the teams you are a member of (Team Thirteen in the above example).</p>
+        <ul>
+            <li>You</li>
+                <li class = 'li.2'>Chores</li>
+                    <li class = 'li.3'>[ ] Make Dinner</li>
+                    <li class = 'li.3'>[ ] Take dog for walk 🐕</li>
+                <li class = 'li.2'>Trip to Tasmania</li>
+                    <li class = 'li.3'>[x] Book tickets ✈</li>
+                    <li class = 'li.3'>[ ] Plan itinerary</li>
+            <li>Team Thirteen</li>
+                <li class = 'li.2'>Assignment 2</li>
+                    <li class = 'li.3'>[ ]Team Profile</li>
+                        <li class = 'li.4'>[x] Copy & paste everyone’s personal profiles from A1</li>
+                        <li class = 'li.4'>[ ] @James touch it up ✨</li>
+                    <li class = 'li.3'>[ ] IT Jobs</li>
+                        <li class = 'li.4'>[x] List everyone’s ideal jobs</li>
+                        <li class = 'li.4'>[ ] @Geoffrey make it look good 😎</li>
+                    <li class = 'li.3'>[x] Project Idea</li>
+                        <li class = 'li.4'>[x] Decide on project idea</li>
+                        <li class = 'li.4'>[x] @Jesse outline it in detail 📝</li>
+                    <li class = 'li.3'>[ ] Presentation (website)</li>
+                        <li class = 'li.4'>[x] @James code main layout</li>
+                        <li class = 'li.4'>[ ] Everyone code a page 👨‍💻</li>
+        </ul>
 
-    <h3>Tasks in 'You'</h3>
+        <p>It might be hard to understand the layout of the application from the above, but what you just saw is the layout
+            of an average to-do list app. And although this layout still works really well, we wanted to add some flavour to
+            it — we wanted to make it more... usable.</p>
 
-    <p>Every user of ToDoTopia has a You tab. This acts as a place where your personal to-do lists are stored. When you
-        complete a task in You, your avatar will gain or maintain fitness. If you haven’t completed tasks in ‘You’ for a
-        few days (this means you’re likely not giving time outside of work to your personal hobbies and projects) you’re
-        likely to lose some fitness. The reason you want this fitness is because of the battles you will have with your
-        peers, but we’ll talk about that later on.</p>
+        <p>As you enter the list & projects menu, you will see a list of the personal to-do lists you have under a ‘You’
+            header (Chores & Trip to Tasmania in the above example). Then, under the ‘You’ header you will see the names of
+            the teams you are a member of (Team Thirteen in the above example).</p>
 
-    <h3>Tasks in a Team</h3>
+        <h3>Tasks in 'You'</h3>
 
-    <p>If you are a part of a team (in Uni, work or a project involving another person), then you will see the name of
-        the team listed below ‘You’. Clicking into this, you will see the stats of your team mates and the projects
-        you’re all working on.</p>
+        <p>Every user of ToDoTopia has a You tab. This acts as a place where your personal to-do lists are stored. When you
+            complete a task in You, your avatar will gain or maintain fitness. If you haven’t completed tasks in ‘You’ for a
+            few days (this means you’re likely not giving time outside of work to your personal hobbies and projects) you’re
+            likely to lose some fitness. The reason you want this fitness is because of the battles you will have with your
+            peers, but we’ll talk about that later on.</p>
 
-    <p><b>Team Home</b> or <b>Team Village</b> is a place to hang out... virtually. Basically, as you complete tasks and
-        projects as a team you build a village together. There might even be a team chat and call feature here.</p>
+        <h3>Tasks in a Team</h3>
 
-    <p>Next to the Team Village you will see the <b>Week Overview</b>. This displays all the tasks coming up this week
-        and tasks that have been completed. You will see who is assigned to each task or filter the tasks by only you.
-        There will be plenty of ways to view and sort tasks, we’ll touch on that later.</p>
+        <p>If you are a part of a team (in Uni, work or a project involving another person), then you will see the name of
+            the team listed below ‘You’. Clicking into this, you will see the stats of your team mates and the projects
+            you’re all working on.</p>
 
-    <p><b>Projects</b> will also be next to the Week Overview. This will be a list of the projects your team is working
-        on or has worked on in the past; you may even be able to see upcoming projects. Clicking into each project, you
-        will see all the tasks require to complete the project. Tasks can have due dates, when it’s set for the current
-        week, it will be displayed in the Week Overview.</p>
+        <p><b>Team Home</b> or <b>Team Village</b> is a place to hang out... virtually. Basically, as you complete tasks and
+            projects as a team you build a village together. There might even be a team chat and call feature here.</p>
 
-    <p>When projects have progressed, you will see something being built. The more <b>Buildings</b> your village has,
-        the more projects your team has completed.</p>
+        <p>Next to the Team Village you will see the <b>Week Overview</b>. This displays all the tasks coming up this week
+            and tasks that have been completed. You will see who is assigned to each task or filter the tasks by only you.
+            There will be plenty of ways to view and sort tasks, we’ll touch on that later.</p>
 
-    <p>When you complete a task in a team, you gain <b>Gold</b>. This Gold can be traded for <b>Levels</b>,
-        <b>Armour</b> & <b>Weapons</b>. The higher the level, the better Armour & Weapons you can buy. But why would you
-        need armour? Well...</p>
+        <p><b>Projects</b> will also be next to the Week Overview. This will be a list of the projects your team is working
+            on or has worked on in the past; you may even be able to see upcoming projects. Clicking into each project, you
+            will see all the tasks require to complete the project. Tasks can have due dates, when it’s set for the current
+            week, it will be displayed in the Week Overview.</p>
 
-    <p><b>Battles</b>! At the end of each week at an agreed time set by the project manager (who plays an important part
-        in team projects, we’ll talk about this later), everyone in the team can get their drinks and ToDoTopian avatars
-        ready for a Battle. These Battles continue until one ToDoTopian remains or there is a Truce. In a battle, you
-        may loose Armour & Levels (not Fitness, however), or you might win Gold or Armour (spoils are divided up between
-        the remaining players in a Truce). We have not yet decided on our approach to Battles, since there are so many
-        ways to go about it. However we turn out to create it, Battles will be a fun time to chill out at the end of a
-        hard week’s work with your team.</p>
+        <p>When projects have progressed, you will see something being built. The more <b>Buildings</b> your village has,
+            the more projects your team has completed.</p>
 
-    <p><b>Badges</b> can be earned (golden, sliver, bronze & emerald). When you win a Battle you get a Golden Badge;
-        second and third take home a Silver & Bronze Badge respectively. But the ToDoTopian in the team who has
-        completed the most work by the end of the week takes home an Emerald Badge (these Emerald badges might translate
-        to real world rewards for the employees).</p>
+        <p>When you complete a task in a team, you gain <b>Gold</b>. This Gold can be traded for <b>Levels</b>,
+            <b>Armour</b> & <b>Weapons</b>. The higher the level, the better Armour & Weapons you can buy. But why would you
+            need armour? Well...</p>
 
-    <p>The <b>Mayor</b> of the Team Village is the employee (or employer) in charge of the team. Only the Mayor can
-        create projects. The <b>Construction Manager</b>, or just <b>Manager</b>, has control of the tasks in a project.
-        They are the only users who can create tasks in the specific project (all tasks in a project are visible to the
-        team). The Manager can be the Mayor, or another member of the team selected by the Mayor.</p>
+        <p><b>Battles</b>! At the end of each week at an agreed time set by the project manager (who plays an important part
+            in team projects, we’ll talk about this later), everyone in the team can get their drinks and ToDoTopian avatars
+            ready for a Battle. These Battles continue until one ToDoTopian remains or there is a Truce. In a battle, you
+            may loose Armour & Levels (not Fitness, however), or you might win Gold or Armour (spoils are divided up between
+            the remaining players in a Truce). We have not yet decided on our approach to Battles, since there are so many
+            ways to go about it. However we turn out to create it, Battles will be a fun time to chill out at the end of a
+            hard week’s work with your team.</p>
 
-    <h3>How Tasks are Displayed</h3>
+        <p><b>Badges</b> can be earned (golden, sliver, bronze & emerald). When you win a Battle you get a Golden Badge;
+            second and third take home a Silver & Bronze Badge respectively. But the ToDoTopian in the team who has
+            completed the most work by the end of the week takes home an Emerald Badge (these Emerald badges might translate
+            to real world rewards for the employees).</p>
 
-    <p>As mentioned earlier, ToDoTopia displays tasks in a list by default. But views can be changed from Lists to
-        Kanban Boards, Calendars, Timelines and People views.</p>
+        <p>The <b>Mayor</b> of the Team Village is the employee (or employer) in charge of the team. Only the Mayor can
+            create projects. The <b>Construction Manager</b>, or just <b>Manager</b>, has control of the tasks in a project.
+            They are the only users who can create tasks in the specific project (all tasks in a project are visible to the
+            team). The Manager can be the Mayor, or another member of the team selected by the Mayor.</p>
 
-    <p>Every task contains three properties: Date, Progress & Assigned.</p>
+        <h3>How Tasks are Displayed</h3>
 
-    <p><b>Date</b> has a start and an end, or just a due date. Either way, it will be used to display in the Calendar
-        and Timeline views.</p>
+        <p>As mentioned earlier, ToDoTopia displays tasks in a list by default. But views can be changed from Lists to
+            Kanban Boards, Calendars, Timelines and People views.</p>
 
-    <p><b>Progress</b> contains To-Do, In Progress, Under Review & Complete by default, but these can be changed from
-        project to project. This property is used for the Kanban Board view, but is also seen on other views as an icon.
-    </p>
+        <p>Every task contains three properties: Date, Progress & Assigned.</p>
 
-    <p><b>Assigned</b> is a property that assigns a team member or team members to a task. This is used to organise
-        tasks in the People view, but is also displayed as an icon on the task in every other view.</p>
+        <p><b>Date</b> has a start and an end, or just a due date. Either way, it will be used to display in the Calendar
+            and Timeline views.</p>
 
-    <p><b>Lists</b> are displayed in, well, a list. Subtasks are viewed in the same view and can be toggled to show or
-        hide on a task to task basis. By default, they are all toggled open (meaning, you will see every task).</p>
+        <p><b>Progress</b> contains To-Do, In Progress, Under Review & Complete by default, but these can be changed from
+            project to project. This property is used for the Kanban Board view, but is also seen on other views as an icon.
+        </p>
 
-    <p><b>Kanban Boards</b> are self-explanatory. You drag tasks from one state to progression to another. Any task with
-        a progress property will be displayed. If a task hasn’t had entered a progress status, it will not be displayed
-        on the board (unless it is a sub-task and its parent task has a progress status, in this case it will be
-        displayed under the parent task on the board and indented a bit).</p>
+        <p><b>Assigned</b> is a property that assigns a team member or team members to a task. This is used to organise
+            tasks in the People view, but is also displayed as an icon on the task in every other view.</p>
 
-    <p><b>Calendars</b> are a month at a time and display tasks either with one date on that day, or with a start and
-        end date stretching over multiple days. A <b>Timeline</b> works the same but is a continuous line rather than a
-        month grid.</p>
+        <p><b>Lists</b> are displayed in, well, a list. Subtasks are viewed in the same view and can be toggled to show or
+            hide on a task to task basis. By default, they are all toggled open (meaning, you will see every task).</p>
 
-    <p>The <b>People</b> view lists all the team members and their assigned tasks. This will be displayed as a gallery,
-        and you will click on that team members avatar to view their tasks as a drop down.</p>
+        <p><b>Kanban Boards</b> are self-explanatory. You drag tasks from one state to progression to another. Any task with
+            a progress property will be displayed. If a task hasn’t had entered a progress status, it will not be displayed
+            on the board (unless it is a sub-task and its parent task has a progress status, in this case it will be
+            displayed under the parent task on the board and indented a bit).</p>
 
-    <h2>Why Gamification?</h2>
+        <p><b>Calendars</b> are a month at a time and display tasks either with one date on that day, or with a start and
+            end date stretching over multiple days. A <b>Timeline</b> works the same but is a continuous line rather than a
+            month grid.</p>
 
-    <p>Why Gamification. Well, that’s pretty simple... it makes work FUN! Along side this, search the web and you will
-        find studies showing the benefits of gamification in the workplace (including increased productivity!).</p>
+        <p>The <b>People</b> view lists all the team members and their assigned tasks. This will be displayed as a gallery,
+            and you will click on that team members avatar to view their tasks as a drop down.</p>
 
-    <p>We wanted to combine the concept of gamification with already really successful to-do list frameworks. That’s why
-        the use of lists, Kanban boards, timelines, etc are so important to ToDoTopia.</p>
+        <!-- Why? -->
 
-    <h2>How Will We Make ToDoTopia?</h2>
+        <h2>Why Gamification?</h2>
 
-    <p>We are yet to decide on our exact approach, but this application could be programmed with JavaScript which works
-        on Android and iOS and integrates well with web technologies including CSS and HTML. Or we could use Java and
-        Swift to make Android and iOS dedicated apps. On the other hand, C# could be used to programme the game side of
-        the application (such as the weekly Battles).</p>
+        <p>Why Gamification. Well, that’s pretty simple... it makes work FUN! Along side this, search the web and you will
+            find studies showing the benefits of gamification in the workplace (including increased productivity!).</p>
 
-    <p class='Copyright'>© Jesse Watson 2021</p>
+        <p>We wanted to combine the concept of gamification with already really successful to-do list frameworks. That’s why
+            the use of lists, Kanban boards, timelines, etc are so important to ToDoTopia.</p>
+
+        <!-- How? -->
+
+        <h2>How Will We Make ToDoTopia?</h2>
+
+        <p>We are yet to decide on our exact approach, but this application could be programmed with JavaScript which works
+            on Android and iOS and integrates well with web technologies including CSS and HTML. Or we could use Java and
+            Swift to make Android and iOS dedicated apps. On the other hand, C# could be used to programme the game side of
+            the application (such as the weekly Battles).</p>
+
+        <p class='Copyright'>© Jesse Watson 2021</p>
+
+    </div>
 
 </body>
 
