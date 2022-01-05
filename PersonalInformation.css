@@ -2,6 +2,7 @@
 body {
     background: black;
     color: white;
+    font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
 }
 
 /* Style the tab */
@@ -72,16 +73,12 @@ img {
 #aboutInfo h3 {
     font-size: 2.5em;
     font-weight: 700;
-    font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
-    color: white;
     margin-bottom: 2em;
 }
 
 #theTeam {
     font-size: 5em;
-    font-weight: 700;
-    font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
-    color: white;
+    font-weight: 700;    
     text-align: center;
 }
 
@@ -199,8 +196,7 @@ img {
 
     #theTeam {
         font-size: 3em;
-        font-weight: 700;
-        font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
+        font-weight: 700;        
         color: pink;
         text-align: center;
 
@@ -234,8 +230,7 @@ img {
 
     #theTeam {
         font-size: 3em;
-        font-weight: 700;
-        font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
+        font-weight: 700;        
         color: yellow;
         text-align: center;
 
@@ -268,8 +263,7 @@ img {
 
     #theTeam {
         font-size: 3em;
-        font-weight: 700;
-        font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
+        font-weight: 700;        
         color: aqua;
         text-align: center;
 
@@ -292,8 +286,7 @@ img {
         
     #theTeam {
         font-size: 3em;
-        font-weight: 700;
-        font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
+        font-weight: 700;       
         color: hotpink;
         text-align: center;
 
@@ -315,8 +308,7 @@ img {
     
     #theTeam {
         font-size: 3em;
-        font-weight: 700;
-        font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
+        font-weight: 700;     
         color: skyblue;
         text-align: center;
 
