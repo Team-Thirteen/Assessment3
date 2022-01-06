@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link type="text/css" rel="stylesheet" href="Nav.css">
     <link type="text/css" rel="stylesheet" href="industryData.css">
-        <title></title>
+    <title></title>
 </head>
 
 <body>
@@ -19,214 +19,441 @@
         <a id="project" href="projectIdea.html">Project Idea</a>
     </div>
 
-        <h1>Industry data</h1>
-    
+    <img id="header" src="Images/IndustryData4.png">
+
     <button class="accordion">What are the Job Titles for your group's ideal jobs?</button>
-<div class="panel">
-    <div class="image-Container">    
-        <img id="generalSkills" src="Images/General-IT.jpg" alt="generalSkills">
-        <img id="specificSkills" src="Images/IT-Specific.jpg" alt="specificSkills">
+    <div class="panel">
+        <div class="idealJobTitles">
+            <ul>
+                <li>Bradley Williams - IT Infrastructure Engineer</li>
+                <li>James Costello - Full Stack Developer .NET</li>
+                <li>Jesse Watson - Junior Web Developer</li>
+                <li>Matthew Manriquez - IT support Engineer</li>
+                <li>Hayden Bleys - Software Engineer </li>
+                <li>Geoffrey Davis - Developer Programmer WEB &amp; DB</li>
+            </ul>
         </div>
-    <div class="table">
-        <table>
-            <tr>
-                <th>Position</th>
-                <th>General Skills</th>
-                <th>IT-specific Skills</th>
-            </tr>
-            <tr>
-                <td>IT Infrastructure Engineer</td>
-                <td>
-                    <ul>
-                        <li>Troubleshooting</li>
-                        <li>Communication Skills </li>
-                        <li>Teamwork/ Collaboration</li>
-                        <li>Building Effective Relationships</li>
-                        <li>Self-Starter</li>
-                    </ul>
-                </td>
-                <td>
-                    <ul>
-                        <li>Network Engineering skills</li>
-                        <li>understanding of authentication, and network security</li>
-                        <li>Managing VPNs and remote connectivity</li>
-                        <li>Managing backup restoration of data disaster recovery best practices</li>
-                        <li>Network routers and switches</li>
-                        <li>Comfortable with administering Active Directory, Office 365, Firewalls, Switches</li>
-                        <li>Supporting VoIP, mobile devices, servers, desktops, printer, scanner</li>
-                        <li>Experience in an IT operations role dealing with network changes and software releases</li>
-                        <li>Experience with Flexipod</li>
-                    </ul>
-                </td>
-            </tr>
-            <tr>
-                <td>IT Support Engineer</td>
-                <td>
-                    <ul>
-                        <li>Troubleshooting</li>
-                        <li>Communication Skills </li>
-                        <li>Teamwork/ Collaboration</li>
-                        <li>Building Effective Relationships</li>
-                        <li>Self-Starter</li>
-                    </ul>
-                </td>
-                <td>
-                    <ul>
-                        <li>Windows Desktops in AD environments</li>
-                        <li>Windows Server</li>
-                        <li>Office 365</li>
-                        <li>Active Directory, Group Policy</li>
-                        <li>Switches, Firewalls</li>
-                        <li>VMware/Hyper V environments</li>                        
-                    </ul>
-                </td>
-            </tr>
-            <tr>
-                <td>Junior Web Developer</td>
-                <td>
-                    <ul>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                    </ul>
-                </td>
-                <td>
-                    <ul>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                    </ul>
-                </td>
-            </tr>
-            <tr>
-                <td>Full Stack Developer .NET</td>
-                <td>
-                    <ul>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                    </ul>
-                </td>
-                <td>
-                    <ul>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                    </ul>
-                </td>
-            </tr>
-            <tr>
-                <td>Developer Programmer WEB &amp; DB</td>
-                <td>
-                    <ul>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                    </ul>
-                </td>
-                <td>
-                    <ul>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                    </ul>
-                </td>
-            </tr>
-            <tr>
-                <td>Software Engineer</td>
-                <td>
-                    <ul>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                    </ul>
-                </td>
-                <td>
-                    <ul>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                    </ul>
-                </td>
-            </tr>
-        
-        
-        
-        
-        
-        </table>
+    </div>
 
-  </div>
-</div>
+    <button class="accordion">How do each of these rank in terms of demand from employers?</button>
+    <div class="panel">
+        <div class="idealJobRank">
+            <p>Based off the burning glass Top Occupations data from 24 Mar 2017 – 23 Mar 2018</p>
+            <div class="OccGraphFlexContainer">
+                <img id="OccGraph" src="Images/Top_IT_Occupations.jpg" alt="Top IT Occupations Graph">
+                <p>Software development/Engineer type roles such as James and Hayden have highlighted ranked number 1 in terms of demand being at 29,456<br><br>
+                    Web development roles such as Geoffrey and Jesse have highlighted, rank Sixth with 5,990
+                    IT support Engineer position Matthew has highlighted could fall under a few different areas however looking at the Job specifications they have provided are similar to the Help Deck Officer position with 9,830 jobs available. This position ranks fifth overall.<br><br>
+                    That said the IT Infrastructure Engineer position could fit into the Network/Systems Administrator roll ranking fourth with 9,830 jobs available. This position could also fall under the Network support Officer role with 3,246 positions available ranking twelfth overall. In addition, it could fall under a Network Engineer / Architect role which would be perhaps a senior version of the previous two mentions positions. This position ranks 15th overall with 2,478 jobs posted.</p>
+            </div>
+        </div>
+    </div>
 
-<button class="accordion">How do each of these rank in terms of demand from employers?</button>
-<div class="panel">
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-</div>
+    <button class="accordion">From your group's ideal jobs, you can identify a set of skills required for these jobs (we will refer to this as your group's required skill set). These can be divided into general skills (communication, problem solving, writing etc) and IT-specific skills (Javascript, SQL, etc).</button>
+    <div class="panel">
+        <div class="image-Container">
+            <img id="generalSkills" src="Images/General-IT.jpg" alt="General Skills Graph">
+            <img id="specificSkills" src="Images/IT-Specific.jpg" alt="Specific Skills Graph">
+        </div>
+        <div id="skills-table">
+            <table>
+                <tr>
+                    <th>Position</th>
+                    <th>General Skills</th>
+                    <th>IT-specific Skills</th>
+                </tr>
+                <tr>
+                    <td>IT Infrastructure Engineer</td>
+                    <td>
+                        <ul>
+                            <li>Troubleshooting</li>
+                            <li>Communication Skills </li>
+                            <li>Teamwork/ Collaboration</li>
+                            <li>Building Effective Relationships</li>
+                            <li>Self-Starter</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>Network Engineering skills</li>
+                            <li>understanding of authentication, and network security</li>
+                            <li>Managing VPNs and remote connectivity</li>
+                            <li>Managing backup restoration of data disaster recovery best practices</li>
+                            <li>Network routers and switches</li>
+                            <li>Comfortable with administering Active Directory, Office 365, Firewalls, Switches</li>
+                            <li>Supporting VoIP, mobile devices, servers, desktops, printer, scanner</li>
+                            <li>Experience in an IT operations role dealing with network changes and software releases</li>
+                            <li>Experience with Flexipod</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>IT Support Engineer</td>
+                    <td>
+                        <ul>
+                            <li>Troubleshooting</li>
+                            <li>Communication Skills</li>
+                            <li>Teamwork/ Collaboration</li>
+                            <li>Building Effective Relationships</li>
+                            <li>Self-Starter</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>Windows Desktops in AD environments</li>
+                            <li>Windows Server</li>
+                            <li>Office 365</li>
+                            <li>Active Directory, Group Policy</li>
+                            <li>Switches, Firewalls</li>
+                            <li>VMware/Hyper V environments</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Junior Web Developer</td>
+                    <td>
+                        <ul>
+                            <li>Troubleshooting</li>
+                            <li>Communication Skills</li>
+                            <li>Detail-Orientated </li>
+                            <li>Time Management</li>
+                            <li>Quality Assurance and Control</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>PHP 7/8 object orientated programming skills</li>
+                            <li>JavaScript / jQuery programming skills</li>
+                            <li>Excellent CSS skills</li>
+                            <li>Experience with Git based version control</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Full Stack Developer .NET</td>
+                    <td>
+                        <ul>
+                            <li>Writing skills</li>
+                            <li>Communication Skills</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>SQL</li>
+                            <li>Microsoft C#</li>
+                            <li>.Net programming / .Net Core</li>
+                            <li>Version Control (Git)</li>
+                            <li>JavaScript Frameworks (React/Agular/Vue.js)</li>
+                            <li>Software Engineering (TDD/DDD and design Patterns)</li>
+                            <li>MongoDB NoSQL</li>
+                            <li>Web API’s</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Developer Programmer WEB &amp; DB</td>
+                    <td>
+                        <ul>
+                            <li>Communication Skills</li>
+                            <li>Writing</li>
+                            <li>Multi-Tasking</li>
+                            <li>Self-Starter</li>
+                            <li>Problem Solving</li>
+                        </ul>
+                    <td>
+                        <ul>
+                            <li>C#</li>
+                            <li>.Net Programming (ASP.Net)</li>
+                            <li>Java</li>
+                            <li>SQL (specifically MS SQL)</li>
+                            <li>Software Engineering</li>
+                            <li>Systems Engineering</li>
+                            <li>Website Production</li>
+                            <li>PIM (Product information management)</li>
+                            <li>MDM (mobile Device Management)</li>
+                            <li>BI (Business Intelligence)</li>
+                            <li>DW (Data Warehousing)</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Software Engineer</td>
+                    <td>
+                        <ul>
+                            <li>Problem solving</li>
+                            <li>Self-starter</li>
+                            <li>Writing</li>
+                            <li>Teamwork / Collaboration</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>C</li>
+                            <li>C++</li>
+                            <li>Linux</li>
+                            <li>Jira</li>
+                            <li>Version Control</li>
+                            <li>Software Engineering</li>
+                        </ul>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <button class="accordion">How do the IT-specific skills in your required skill set rank in terms of demand from employers?</button>
+    <div class="panel">
+        <div class="ITspecficSkills">
+            <table>
+                <tr>
+                    <th>IT-Skill </th>
+                    <th>Rank</th>
+                </tr>
+                <tr>
+                    <td>SQL </td>
+                    <td>1st</td>
+                </tr>
+                <tr>
+                    <td>JavaScript </td>
+                    <td>2nd</td>
+                </tr>
+                <tr>
+                    <td>Java </td>
+                    <td>3rd</td>
+                </tr>
+                <tr>
+                    <td>Microsoft Windows </td>
+                    <td>4th</td>
+                </tr>
+                <tr>
+                    <td>Tehnical Support </td>
+                    <td>11th</td>
+                </tr>
+                <tr>
+                    <td>Microsoft C# </td>
+                    <td>12th </td>
+                </tr>
+                <tr>
+                    <td>Linux </td>
+                    <td>13th</td>
+                </tr>
+                <tr>
+                    <td>Software Engineering </td>
+                    <td>15th</td>
+                </tr>
+                <tr>
+                    <td>.Net Programming </td>
+                    <td>16th</td>
+                </tr>
+                <tr>
+                    <td>Website Production</td>
+                    <td>17th</td>
+                </tr>
+                <tr>
+                    <td>Microsoft Office</td>
+                    <td>18th</td>
+                </tr>
+                <tr>
+                    <td>Git</td>
+                    <td>21st</td>
+                </tr>
+                <tr>
+                    <td>Systems Engineering</td>
+                    <td>23rd</td>
+                </tr>
+            </table>
+            <p>The Table has been ranked based on the Burning Glass IT-Skills bar chart above. SQL has been ranked 1st based on the data and certainly for most if not all software engineer / developer roles SQL stills will be needed. <br><br>JavaScript is 2nd which is understandable as is the logic behind website programming. A lot of the Programming Jobs require an understanding of several technology skills in terms of coding languages. Skills such as Software Engineering and Systems Engineering are generic terms that cover concepts related to software design and principals such as Design patters and methodologies.</p>
+        </div>
+    </div>
+    <button class="accordion">How do the general skills in your required skill set rank in terms of demand from employers?</button>
+    <div class="panel">
+        <div class="ITGenericSkills">
+            <table>
+                <tr>
+                    <th>Generic Skill </th>
+                    <th>Rank</th>
+                </tr>
+                <tr>
+                    <td>Communication Skills </td>
+                    <td>1st</td>
+                </tr>
+                <tr>
+                    <td>Problem Solving </td>
+                    <td>2nd</td>
+                </tr>
+                <tr>
+                    <td>Writing </td>
+                    <td>4th</td>
+                </tr>
+                <tr>
+                    <td>Teamwork / Collaboration </td>
+                    <td>5th</td>
+                </tr>
+                <tr>
+                    <td>Troubleshooting </td>
+                    <td>6th</td>
+                </tr>
+                <tr>
+                    <td>Detail-Orientated </td>
+                    <td>8th </td>
+                </tr>
+                <tr>
+                    <td>Time-Management </td>
+                    <td>12th</td>
+                </tr>
+                <tr>
+                    <td>Quality Assurance and Control </td>
+                    <td>14th</td>
+                </tr>
+                <tr>
+                    <td>Building Effective Relationships </td>
+                    <td>22nd</td>
+                </tr>
+                <tr>
+                    <td>Self-Starter</td>
+                    <td>24th</td>
+                </tr>
+            </table>
+            <p>It’s no surprise that Communication skills rank number 1 on the Burning Glass Generals Skills graph above. Employers need people who can effectively communicate with in teams. Looking at the Job descriptions five out of the six job specifications require this skill so it would pay to develop this soft skill. <br><br>Problem solving skills are 2nd over all but only two of the six job specs have requested this. That said given the nature of IT work I’d say this is a pre-requisite of any IT role. Writing is 4th overall and 3rd in our skill sets this could be down to documenting system details in terms legacy. Teamwork / Collaboration very important especially on software teams working with Agile frameworks like scrum.</p>
 
-<button class="accordion">From your group's ideal jobs, you can identify a set of skills required for these jobs (we will refer to this as your group's required skill set). These can be divided into general skills (communication, problem solving, writing etc) and IT-specific skills (Javascript, SQL, etc).</button>
-<div class="panel">
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-</div>
-        <button class="accordion">How do the IT-specific skills in your required skill set rank in terms of demand from employers?</button>
-<div class="panel">
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-</div>
-        <button class="accordion">How do the general skills in your required skill set rank in terms of demand from employers?</button>
-<div class="panel">
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-</div>
-        <button class="accordion">What are the three highest ranked IT-specific skills which are not in your required skill set?</button>
-<div class="panel">
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-</div>
+        </div>
+    </div>
+    <button class="accordion">What are the three highest ranked IT-specific skills which are not in your required skill set?</button>
+    <div class="panel">
+        <div class="rankedITspecificSkills">
+            <table>
+                <tr>
+                    <th>IT-Skill </th>
+                    <th>Rank</th>
+                </tr>
+                <tr>
+                    <td>Project Management </td>
+                    <td>5th</td>
+                </tr>
+                <tr>
+                    <td>SAP </td>
+                    <td>6th</td>
+                </tr>
+                <tr>
+                    <td>Busines management </td>
+                    <td>7th</td>
+                </tr>
+            </table>
+
+            <p>Project Management is a specific role within the IT industry which no one in the team has chosen as an Ideal job. Although some personal project management will be required for each of the it would generally be required for a specific role. <br><br>SAP stands for Systems Applications and Products in Data Processing. It is also the name of a company a software company that specialises in ERP (Enterprise Resource Planning) software. It’s quite specific and would generally be a specialisation for anyone using it. <br><br>Business management - unsurprisingly no one has a role that specifies Business management this would generally be a progression from development work to perhaps management although having an understanding of the type of business you are in as an IT professional is a must</p>
+        </div>
+    </div>
     <button class="accordion">What are the three highest ranked general skills which are not in your required skill set?</button>
-<div class="panel">
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-</div>
+    <div class="panel">
+        <div class="rankedITGenericSkills">
+            <table>
+                <tr>
+                    <th>General Skill </th>
+                    <th>Rank</th>
+                </tr>
+                <tr>
+                    <td>Organisational Skills </td>
+                    <td>3rd</td>
+                </tr>
+                <tr>
+                    <td>Planning </td>
+                    <td>7th</td>
+                </tr>
+                <tr>
+                    <td>Creativity </td>
+                    <td>9th</td>
+                </tr>
+            </table>
+            <p>Organisational Skills will likely be the domain of business leaders such as project Managers and Business Analysts in most IT teams. Its perhaps not an overall necessary skill for a job specification but being organised at your job level is advantageous. Planning - again this would be a skill required of business leaders as above. Creativity you’d argue that all professions require an element of creativity especially development roles were getting jiggy with code might mean the difference between a good product or not. I’d say however this skill in terms of job postings would be reserved for the creative types such as UI/UX and graphic Designers. </p>
+        </div>
+    </div>
     <button class="accordion">Having looked at the Burning Glass data, has your opinion of your ideal job changed? Why or why not?</button>
-<div class="panel">
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-</div>
-    
-        <button class="accordion">Ideal job Rankings and how Team Thirteen compares</button>
-<div class="panel">
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-</div>
-    
+    <div class="panel">
+        <div id="Opinion">
+            <table>
+                <tr>
+                    <th>Name</th>
+                    <th>Opinion of Ideal Job Changed Y/N</th>
+                    <th>Why or Why not </th>
+                </tr>
+                <tr>
+                    <td>James Costello</td>
+                    <td>Yes</td>
+                    <td>Having looked at other positions I feel a more creative approach to using front end technologies might better suit me such as front-end web development perhaps combined with UI/UX design. This may then move onto full stack development in the future.</td>>
+                </tr>
+                <tr>
+                    <td>Bradley Williams</td>
+                    <td></td>
+                    <td></td>>
+                </tr>
+                <tr>
+                    <td>Jesse Watson</td>
+                    <td></td>
+                    <td></td>>
+                </tr>
+                <tr>
+                    <td>Matthew Manriquez</td>
+                    <td></td>
+                    <td></td>>
+                </tr>
+                <tr>
+                    <td>Hayden Bleys</td>
+                    <td>No</td>
+                    <td>I have had these aspirations since before beginning my degree and perhaps after some years of experience I may change my career goals.</td>>
+                </tr>
+                <tr>
+                    <td>Geoffrey Davis</td>
+                    <td>No</td>
+                    <td>After reviewing the burning glass data, I feel that my ideal job of Developer Programmer WEB &amp; DB is still the career path I intend to follow, as shown in the data a lot of the IT skills required for the job of Developer Programmer are listed in some of the top required skills in the industry. Some of these skills include Java, software engineering and c#. </td>>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <button class="accordion">Ideal job Rankings and how Team Thirteen compares</button>
+    <div class="panel">
+        <p id="BGTOCCsparagraph">Looking at the below Burning Glass data from 01 Mar 2017 to 28 Feb 2018 we can rank our Ideal jobs in terms demand. </p>
+        <div class="BGTOCCsContainer">
+            <img id="BGTOCCs" src="Images/BGTOCCs.jpg" alt="Top Burning Glass Occupations">
+            <table id="BGTOCCstable">
+                <tr>
+                    <th>Job Title</th>
+                    <th>Burning Glass comparable position </th>
+                    <th>Rank </th>
+                </tr>
+                <tr>
+                    <td>Software Engineer </td>
+                    <td>Software Developer / Engineer</td>
+                    <td>1st</td>>
+                </tr>
+                <tr>
+                    <td>Full Stack Developer .NET</td>
+                    <td>Software Developer / Engineer</td>
+                    <td>1st</td>>
+                </tr>
+                <tr>
+                    <td>IT Infrastructure Engineer</td>
+                    <td>Computer Systems Engineer / Architect</td>
+                    <td>2nd</td>>
+                </tr>
+                <tr>
+                    <td>IT Support Engineer</td>
+                    <td>Network / Systems Administrator</td>
+                    <td>3rd</td>>
+                </tr>
+                <tr>
+                    <td>Junior Web Developer</td>
+                    <td>Web Developer</td>
+                    <td>4th</td>>
+                </tr>
+                <tr>
+                    <td>Developer Programmer WEB &amp; DB</td>
+                    <td>Web Developer</td>
+                    <td>4th. </td>>
+                </tr>
+            </table>
+            <p>The Software Engineer, Full Stack Developer .NET, positions are very similar just using different tech stacks and are both Software Developer / Engineer positions. The IT Infrastructure Engineer and IT Support Engineer are both similar roles, but the former is a senior position. Junior Web Developer and Developer Programmer WEB &amp; DB again are similar, but the latter is a senior position. </p>
+        </div>
+    </div>
+
     <script src="industryData.js"></script>
-    
-</body>
-</html>
+
+</body></html>

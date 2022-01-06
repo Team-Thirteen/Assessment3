@@ -1,65 +1,294 @@
-.accordion {
-  background-color: #eee;
-  color: #444;
-  cursor: pointer;
-  padding: 18px;
-  width: 100%;
-  border: none;
-  text-align: left;
-  outline: none;
-  font-size: 15px;
-  transition: 0.4s;
+body {
+    background: black;
+    color: white;
+    font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
 }
 
-.active, .accordion:hover {
-  background-color: #ccc;
+
+
+
+
+.accordion {
+    background-color: black;
+    color: hotpink;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: 1px solid hotpink;
+    text-align: left;
+    outline: none;
+    font-size: 1.5em;
+    transition: 0.4s;
+}
+
+.active,
+.accordion:hover {
+    background-color: lawngreen;
 }
 
 .accordion:after {
-  content: '\002B';
-  color: #777;
-  font-weight: bold;
-  float: right;
-  margin-left: 5px;
+    content: '\002B';
+    color: #777;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
 }
 
 .active:after {
-  content: "\2212";
+    content: "\2212";
 }
 
 .panel {
-  padding: 0 18px;
-  background-color: white;
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.2s ease-out;
+    padding: 0 18px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    margin-bottom: .5em;
+}
+
+#header{ 
+     max-width: 60%;  
+   
+    margin-left: 20em;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+    
+    
+    
+}
+
+.idealJobTitles {
+    font-size: 1.5em;
+    font-weight: 800;
+}
+
+.idealJobRank {
+
+    font-size: 1.5em;
+    font-weight: 600;
+      
+}
+
+.OccGraphFlexContainer {
+    display: flex;
+  
+}
+
+.OccGraphFlexContainer p {
+    font-size: 0.8em;
+    font-weight: 600;
+    margin-top: 0;
+}
+
+
+#OccGraph {
+    max-width: 30%;
+    border: .2em solid hotpink;
+    margin-right: .5em;
+    border-radius: .2em;
 }
 
 .image-Container {
     display: flex;
-   background-color: skyblue;
-    color: aliceblue;
-    margin-bottom: 10em;
+    margin-top: 1em;
+    margin-bottom: 1em;
 }
 
-.image-Container img{
-    margin: auto;
+.image-Container img {    
+    max-width: 30%;
+    border: .2em solid hotpink;
+    border-radius: .2em;
+
+}
+
+#generalSkills{
+    margin-left: auto;
+    margin-right: 1em;
+}
+
+#specificSkills{
+    margin-right: auto;
+    margin-left: 1em;
+}
+
+
+#skills-table table  {    
+    border-collapse: collapse;    
+    font-size: 1em;
+    font-weight: 600;
+    padding-left: 1em;
+    color: greenyellow;
+    table-layout: fixed;
+    width: 100%;
+}
+
+
+
+.ITspecficSkills{
+    display: flex;
     
     
 }
 
-
-table, tr, td, th {
-    border: 0.1em solid hotpink;
-    border-collapse: collapse;
-     margin: auto;
-    
-}
-.table{
-    background-color: black;
-    color: aliceblue;
+.ITspecficSkills table
+{
    
+    border-collapse: collapse;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 1em;
+    font-weight: 600;
+    padding-left: 1em;
+    width: 100%;
+}
+
+.ITspecficSkills p {
+     font-size: 1.5em;
+    font-weight: 600;
+    margin-top: 0.5em;
+    margin-right: 10%;
+}
+
+.ITGenericSkills{
+    display: flex;
     
+    
+}
+
+.ITGenericSkills table
+{
+    
+    border-collapse: collapse;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 1em;
+    font-weight: 600;
+    padding-left: 1em;
+    width: 100%;
+}
+
+.ITGenericSkills p {
+     font-size: 1.5em;
+    font-weight: 600;
+    margin-top: 0.5;
+    margin-right: 10%;
+}
+
+.rankedITspecificSkills{
+    display: flex;
+    
+    
+}
+
+.rankedITspecificSkills table{
+    
+    border-collapse: collapse;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 1em;
+    font-weight: 600;
+    padding-left: 1em;
+    padding-right: 1em;
+    width: 100%;
+    
+}
+
+.rankedITspecificSkills p {
+     font-size: 1.5em;
+    font-weight: 600;
+    margin-top: 0.5;
+    margin-right: 10%;
+   
+}
+
+.rankedITGenericSkills{
+    display: flex;
+    
+    
+}
+
+.rankedITGenericSkills table{    
+    border-collapse: collapse;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 1em;
+    font-weight: 600;
+    padding-left: 1em;
+    padding-right: 1em;
+    width: 100%;
+    
+}
+
+.rankedITGenericSkills p {
+     font-size: 1.5em;
+    font-weight: 600;
+    margin-top: 0.5;
+    margin-right: 10%;
+   
+}
+
+
+
+#Opinion table{    
+    border-collapse: collapse;    
+    font-size: 1em;
+    font-weight: 600;
+    table-layout:fixed;
+    width: 100%;
+    text-align: center;
+    
+    
+}
+
+.BGTOCCsContainer{
+    display: flex;
+    margin-bottom: 2em;
+    
+    
+}
+
+
+#BGTOCCs{
+    max-width: 30%;
+    border: .2em solid hotpink;
+    margin-right: .5em;
+    border-radius: .2em;
+     
+}
+
+
+
+#BGTOCCstable {
+    border-collapse: collapse;  
+    font-size: 1em;
+    font-weight: 600;
+    table-layout:fixed;
+    width: 100%;
+    text-align: center;  
+   
+}
+
+.BGTOCCsContainer P{
+    font-size: 1.5em;
+    font-weight: 600;
+    margin-top: 0.5;
+    width: 70%;
+    padding-left: 1em;
+    padding-right: .5em;
+    margin-top: 0;
+}
+
+#BGTOCCsparagraph{
+    font-size: 1.5em;
+    font-weight: 600;
+    margin-top: 0.5;
+    
+}
+
+
+table tr,th,td{
+    
+    border: 0.2em solid hotpink;
 }
 
 
