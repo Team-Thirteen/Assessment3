@@ -76,10 +76,9 @@ img {
     margin-bottom: 2em;
 }
 
-#theTeam {
-    font-size: 5em;
-    font-weight: 700;    
-    text-align: center;
+#theTeam img {
+    max-width: 80%;   
+   margin: 5%;
 }
 
 #theTeamImages img {
@@ -194,13 +193,7 @@ img {
 
     }
 
-    #theTeam {
-        font-size: 3em;
-        font-weight: 700;        
-        color: pink;
-        text-align: center;
 
-    }
 
     #theTeamImages img {
         float: none;
@@ -228,13 +221,7 @@ img {
     }
 
 
-    #theTeam {
-        font-size: 3em;
-        font-weight: 700;        
-        color: yellow;
-        text-align: center;
 
-    }
 
     #theTeamImages img {
         float: none;
@@ -261,13 +248,6 @@ img {
 
     }
 
-    #theTeam {
-        font-size: 3em;
-        font-weight: 700;        
-        color: aqua;
-        text-align: center;
-
-    }
 
     #theTeamImages img {
         float: left;
@@ -284,13 +264,7 @@ img {
 @media all and (min-width: 1201px) and (max-width:1420px) {
     
         
-    #theTeam {
-        font-size: 3em;
-        font-weight: 700;       
-        color: hotpink;
-        text-align: center;
 
-    }
 
     #theTeamImages img {
         float: left;
@@ -306,13 +280,7 @@ img {
 @media all and (min-width:1421px) and (max-width:1450px) {
     
     
-    #theTeam {
-        font-size: 3em;
-        font-weight: 700;     
-        color: skyblue;
-        text-align: center;
 
-    }
 
     #theTeamImages img {
         float: left;
