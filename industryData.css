@@ -46,11 +46,15 @@ body {
     margin-bottom: .5em;
 }
 
-h1{
-     font-size: 4em;
-     font-weight: 800;
-    text-align: center;
-    color: lawngreen;
+#header{ 
+     max-width: 60%;  
+   
+    margin-left: 20em;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+    
+    
+    
 }
 
 .idealJobTitles {
