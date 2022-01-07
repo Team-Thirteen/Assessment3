@@ -1,7 +1,7 @@
 
 /* APPEARANCE */
 body {
-    background: black;
+    background: #333333;
     color: white;
 }
 
@@ -33,7 +33,7 @@ h3 {
 }
 
 .tasks {
-  padding: 20px 100px;
+  padding: 5% 10%;
 }
 
 .li-2 {
