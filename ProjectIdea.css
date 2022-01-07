@@ -3,19 +3,55 @@
 body {
     background: black;
     color: white;
+}
+
+#mainArea {
     font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
-    line-height: 1.4em;
-    max-width: 900px;
-    padding-left: 50px;
-    /* ^ Check IIT A1 File on How to Centre Page Content */
+    width: 80%;
+    max-width: 1000px;
+    padding: 0% 10%;
+    padding-bottom: 5%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 h1 {
     text-align: center;
 }
 
+h2 {
+    color: hotpink;
+}
+
+h3 {
+    color: lime;
+}
+
+.tasks li {
+  list-style: none;
+}
+
+.tasks {
+  padding: 20px 100px;
+}
+
 .li-2 {
-    padding-left: 10px;
+    padding-left: 20px;
+}
+
+.li-3 {
+  padding-left: 40px;
+}
+
+.li-4 {
+  padding-left: 60px;
+}
+
+.Copyright {
+  color: grey;
+  font-size: .8em;
+  text-align: center;
 }
 
 /* AFFECTS */
@@ -166,8 +202,8 @@ img {
 
 
 @media all and (min-width: 1201px) and (max-width:1420px) {
-    
-        
+
+
     #theTeam {
         font-size: 3em;
         font-weight: 700;
@@ -189,8 +225,8 @@ img {
 }
 
 @media all and (min-width:1421px) and (max-width:1450px) {
-    
-    
+
+
     #theTeam {
         font-size: 3em;
         font-weight: 700;
