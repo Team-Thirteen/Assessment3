@@ -1,9 +1,9 @@
 #navbar {
-overflow:hidden;    
+overflow:hidden;
    width: 100%;
 }
 
-#navbar a:hover{     
+#navbar a:hover{
    color:  hotpink;
 }
 
@@ -14,6 +14,7 @@ overflow:hidden;
     font-size: 1em;  
     font-weight: 600;
     font-style: italic;
+<<<<<<< HEAD
     text-align: center;     
     padding: 17px 10px;   
     text-decoration: none;    
@@ -25,23 +26,45 @@ overflow:hidden;
 
  #home, #team, #profile, #data, #work, #tech, #project  {    
     background-color: #333;
+=======
+    text-align: center;
+    padding: 17px 5px;
+    text-decoration: none;
+
+    width:13.5%;
+    font-weight: 600;
+
+
+}
+
+ #home, #team, #profile, #data, #work, #tech, #project  {
+    background-color: black;
+>>>>>>> 99e6fbab22c42021c301b8e249948d4dde1acf94
     color: white;
-   
+
 }
 
 
 
-@media all and (max-width: 600px) {    
+@media all and (max-width: 600px) {
 
 
+<<<<<<< HEAD
 #navbar a {    
     width:20.0%;   
     font-size: .8em;
     padding: 10px;
+=======
+#navbar a {
+    width:12.0%;
+    font-size: 12px;
+    padding: 4px;
+>>>>>>> 99e6fbab22c42021c301b8e249948d4dde1acf94
 }
 }
 
 @media all and (min-width: 601px) and (max-width:992px) {
+<<<<<<< HEAD
     
     #navbar a {    
     width:20.0%;   
@@ -63,8 +86,27 @@ overflow:hidden;
     #navbar a:hover{     
    color:  cadetblue;
 }  
+=======
+
+    #navbar a {
+    width:12.0%;
+    font-size: 14px;
+    padding: 6px;
+>>>>>>> 99e6fbab22c42021c301b8e249948d4dde1acf94
 }
 
 
+    }
 
- 
+@media all and (min-width: 993px) and (max-width:1300px){
+
+    #navbar a {
+    width:13.0%;
+    font-size: 15px;
+    padding: 6px;
+
+    }
+    #navbar a:hover{
+   color:  cadetblue;
+}
+}
