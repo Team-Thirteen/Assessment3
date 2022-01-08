@@ -1,5 +1,5 @@
 body {
-    background: #333;
+    background-image: url(Images/brickworkBackground.jpg);
     color: white;
     font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
 }
@@ -53,6 +53,7 @@ body {
     margin-left: 20em;
     margin-top: 1.5em;
     margin-bottom: 1.5em;
+    opacity: 75%;
 
 }
 
@@ -125,6 +126,9 @@ body {
     margin-left: 5%;
 
 }
+
+
+
 
 /*--------4. IT-Skills------*/
 
@@ -314,19 +318,20 @@ table tr,
 th,
 td {
     overflow-x: auto;
-    border: 0.2em solid #ff64b4;
+    border: 0.1em solid #ff64b4;
+    
 }
 
 td {
 
-    padding: 2em;
+    padding: 1em;
 }
 
 th {
-    background-color: #99ff33;
-    color: #ff69b4;
+    
+    color: #00ff00;
     font-size: 2em;
-
+    
 }
 
 
