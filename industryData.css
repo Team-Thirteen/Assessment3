@@ -1,5 +1,5 @@
 body {
-    background: black;
+    background: #333;
     color: white;
     font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
 }
@@ -9,7 +9,7 @@ body {
 
 
 .accordion {
-    background-color: black;
+    background-color: #333;
     color: #ff64b4;
     cursor: pointer;
     padding: 18px;
@@ -23,7 +23,8 @@ body {
 
 .active,
 .accordion:hover {
-    background-color: #99ff33;
+    background-color: #333;
+    border-color: #99ff33;
 }
 
 .accordion:after {
