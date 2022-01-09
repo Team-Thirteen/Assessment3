@@ -2,11 +2,15 @@ body {
     background-image: url(Images/brickworkBackground.jpg);
     color: white;
     font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
+
 }
 
-
-
-
+html {
+    
+   
+    -webkit-font-smoothing: antialiased;
+  
+}
 
 .accordion {
     background-color: #333;
@@ -57,12 +61,29 @@ body {
 
 }
 
-.copy { 
-    font-size: 0.8em;
-    color: white;
-    text-align: center;
-
+footer{
+    margin-bottom: 2em;
+    margin-top: 1em; 
+    margin-left: 40%;
+  
+   
 }
+
+.copy {   
+    display: inline-flex;
+opacity: 65%;
+}
+    
+
+
+.copy p{
+    color: #00ff00;
+    text-shadow: 2px 2px 1px black;    
+    margin-right: .2em; 
+   
+}
+
+
 
 /*--------1. Ideal Jobs-------*/
 .idealJobTitles {
@@ -352,6 +373,10 @@ th {
         margin-top: 1.5em;
         margin-bottom: 1.5em;
     }
+    
+    footer{
+        margin-left: 25%;
+    }
 
     /*--------1. Ideal Jobs-------*/
     .idealJobTitles {
@@ -557,6 +582,12 @@ th {
         margin-top: 1.5em;
         margin-bottom: 1.5em;
     }
+    
+      footer{
+        margin-left: 25%;
+    }
+    
+
 
     /*--------1. Ideal Jobs-------*/
     .idealJobTitles {
@@ -754,9 +785,4 @@ th {
     
 }
 
-@media all and (min-width: 993px) and (max-width:1200px) {}
 
-
-@media all and (min-width: 1201px) and (max-width:1420px) {}
-
-@media all and (min-width:1421px) and (max-width:1450px) {}

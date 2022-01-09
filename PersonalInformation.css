@@ -3,6 +3,7 @@ body {
     color: white;
     font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
     background-image: url(Images/brickworkBackground.jpg);
+
 }
 
 /* Style the tab */
@@ -185,9 +186,40 @@ img {
 }
 
 
+footer {
+    margin-left: 40%;
+}
+
+.copy {
+    display: inline-flex;
+    opacity: 65%;
+    margin-top: 3em;
+}
+
+
+.copy img {
+    border: none;
+    max-width: none;
+
+}
+
+
+
+.copy p {
+    color: #00ff00;
+    text-shadow: 2px 2px 1px black;
+    margin-right: .2em;
+
+}
+
+
 /*-------------------------Media Queries-------------------------*/
 
 @media all and (max-width: 600px) {
+    
+    footer {
+    margin-left: 20%;
+}
 
     .flex-container {
         display: block;
@@ -215,6 +247,8 @@ img {
 }
 
 @media all and (min-width: 601px) and (max-width:992px) {
+    
+
 
     .flex-container {
         display: block;
@@ -241,6 +275,8 @@ img {
 }
 
 @media all and (min-width: 993px) and (max-width:1200px) {
+    
+
 
     .flex-container {
         display: block;
