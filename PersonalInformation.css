@@ -1,8 +1,9 @@
-
 body {
-    background: black;
+    background: #333;
     color: white;
     font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
+    background-image: url(Images/brickworkBackground.jpg);
+
 }
 
 /* Style the tab */
@@ -15,7 +16,7 @@ body {
 
 /* Style the buttons that are used to open the tab content*/
 .tab button {
-    background-color: inherit;
+    background-color: #333;
     float: left;
     border: none;
     outline: none;
@@ -23,6 +24,7 @@ body {
     padding: 14px 16px;
     transition: 0.3s;
     width: 16.66%;
+    color: #ff69b4;
 }
 
 /* Change background color of buttons on hover */
@@ -46,14 +48,12 @@ body {
 
 
 
-
-
-
 .flex-container {
     display: flex;
     flex-direction: row;
     background-color: black;
     border: 1em groove green;
+    width: 100%;
 }
 
 img {
@@ -76,16 +76,26 @@ img {
     margin-bottom: 2em;
 }
 
+
 #theTeam img {
-    max-width: 80%;   
-   margin: 5%;
+    max-width: 80%;
+    margin: 5%;
+    border: none;
+    margin-left: 10%;
+    opacity: 75%
+}
+
+#theTeamImages {
+    margin-left: 5%;
 }
 
 #theTeamImages img {
     float: left;
     display: block;
     width: 13%;
-    margin-left: 1.2em;
+    margin-left: 1.7em;
+    opacity: 85%;
+    border: .5em solid white;
 
 }
 
@@ -149,9 +159,9 @@ img {
 .fade4 {
 
     -webkit-animation-name: fade;
-    -webkit-animation-duration: 9s;
+    -webkit-animation-duration: 8s;
     animation-name: fade;
-    animation-duration: 9s;
+    animation-duration: 8s;
 
 }
 
@@ -159,19 +169,46 @@ img {
 .fade5 {
 
     -webkit-animation-name: fade;
-    -webkit-animation-duration: 11s;
+    -webkit-animation-duration: 9s;
     animation-name: fade;
-    animation-duration: 11s;
+    animation-duration: 9s;
 
 }
 
 .fade6 {
 
     -webkit-animation-name: fade;
-    -webkit-animation-duration: 13s;
+    -webkit-animation-duration: 10s;
     animation-name: fade;
-    animation-duration: 13s;
+    animation-duration: 10s;
 
+
+}
+
+
+footer {
+    margin-left: 40%;
+}
+
+.copy {
+    display: inline-flex;
+    opacity: 65%;
+    margin-top: 3em;
+}
+
+
+.copy img {
+    border: none;
+    max-width: none;
+
+}
+
+
+
+.copy p {
+    color: #00ff00;
+    text-shadow: 2px 2px 1px black;
+    margin-right: .2em;
 
 }
 
@@ -179,16 +216,20 @@ img {
 /*-------------------------Media Queries-------------------------*/
 
 @media all and (max-width: 600px) {
+    
+    footer {
+    margin-left: 20%;
+}
 
     .flex-container {
         display: block;
         text-align: center;
-        border: 0.5em solid green;
+        border: 0.5em groove green;
 
     }
 
     .flex-container img {
-        width: 90%;
+        width: 70%;
         max-width: none;
 
     }
@@ -199,23 +240,25 @@ img {
         float: none;
         max-width: none;
         width: 80%;
-        border: .2em solid green;
+
         margin: auto;
     }
 
 }
 
 @media all and (min-width: 601px) and (max-width:992px) {
+    
+
 
     .flex-container {
         display: block;
         text-align: center;
-        border: 0.5em solid green;
+        border: 0.5em groove green;
 
     }
 
     .flex-container img {
-        width: 90%;
+        width: 70%;
         max-width: none;
 
     }
@@ -227,17 +270,18 @@ img {
         float: none;
         max-width: none;
         width: 80%;
-        border: .2em solid pink;
         margin: auto;
     }
 }
 
 @media all and (min-width: 993px) and (max-width:1200px) {
+    
+
 
     .flex-container {
         display: block;
         text-align: center;
-        border: 0.5em solid green;
+        border: 0.5em groove green;
 
     }
 
@@ -252,9 +296,9 @@ img {
     #theTeamImages img {
         float: left;
         display: block;
-        width: 12%;
+        width: 13%;
         margin-left: 0.8em;
-        border: 1em solid brown;
+
 
 
     }
@@ -262,32 +306,37 @@ img {
 
 
 @media all and (min-width: 1201px) and (max-width:1420px) {
-    
-        
 
+    .flex-container img {
+        min-width: 30%;
+
+    }
 
     #theTeamImages img {
         float: left;
         display: block;
-        width: 12%;
+        width: 13%;
         margin-left: 1.0em;
-        border: 1em solid green;
+
     }
 
 
 }
 
-@media all and (min-width:1421px) and (max-width:1450px) {
-    
-    
+@media all and (min-width:1421px) and (max-width:1500px) {
+
+    .flex-container img {
+        min-width: 30%;
+
+    }
 
 
     #theTeamImages img {
         float: left;
         display: block;
-        width: 12%;
+        width: 13%;
         margin-left: 1.2em;
-        border: 1em solid purple;
+
     }
 
 

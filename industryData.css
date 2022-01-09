@@ -1,15 +1,19 @@
 body {
-    background: black;
+    background-image: url(Images/brickworkBackground.jpg);
     color: white;
     font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
+
 }
 
-
-
-
+html {
+    
+   
+    -webkit-font-smoothing: antialiased;
+  
+}
 
 .accordion {
-    background-color: black;
+    background-color: #333;
     color: #ff64b4;
     cursor: pointer;
     padding: 18px;
@@ -23,7 +27,8 @@ body {
 
 .active,
 .accordion:hover {
-    background-color: #99ff33;
+    background-color: #333;
+    border-color: #99ff33;
 }
 
 .accordion:after {
@@ -52,8 +57,33 @@ body {
     margin-left: 20em;
     margin-top: 1.5em;
     margin-bottom: 1.5em;
+    opacity: 75%;
 
 }
+
+footer{
+    margin-bottom: 2em;
+    margin-top: 1em; 
+    margin-left: 40%;
+  
+   
+}
+
+.copy {   
+    display: inline-flex;
+opacity: 65%;
+}
+    
+
+
+.copy p{
+    color: #00ff00;
+    text-shadow: 2px 2px 1px black;    
+    margin-right: .2em; 
+   
+}
+
+
 
 /*--------1. Ideal Jobs-------*/
 .idealJobTitles {
@@ -124,6 +154,9 @@ body {
     margin-left: 5%;
 
 }
+
+
+
 
 /*--------4. IT-Skills------*/
 
@@ -313,19 +346,20 @@ table tr,
 th,
 td {
     overflow-x: auto;
-    border: 0.2em solid #ff64b4;
+    border: 0.1em solid #ff64b4;
+    
 }
 
 td {
 
-    padding: 2em;
+    padding: 1em;
 }
 
 th {
-    background-color: #99ff33;
-    color: #ff69b4;
+    
+    color: #00ff00;
     font-size: 2em;
-
+    
 }
 
 
@@ -338,6 +372,10 @@ th {
         margin-left: 20%;
         margin-top: 1.5em;
         margin-bottom: 1.5em;
+    }
+    
+    footer{
+        margin-left: 25%;
     }
 
     /*--------1. Ideal Jobs-------*/
@@ -544,6 +582,12 @@ th {
         margin-top: 1.5em;
         margin-bottom: 1.5em;
     }
+    
+      footer{
+        margin-left: 25%;
+    }
+    
+
 
     /*--------1. Ideal Jobs-------*/
     .idealJobTitles {
@@ -741,9 +785,4 @@ th {
     
 }
 
-@media all and (min-width: 993px) and (max-width:1200px) {}
 
-
-@media all and (min-width: 1201px) and (max-width:1420px) {}
-
-@media all and (min-width:1421px) and (max-width:1450px) {}

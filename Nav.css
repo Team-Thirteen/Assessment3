@@ -1,69 +1,86 @@
 #navbar {
-overflow:hidden;    
-   width: 100%;
+    overflow: hidden;
+    width: 100%;
 }
 
-#navbar a:hover{     
-   color:  hotpink;
+#navbar a:hover {
+    color: hotpink;
 }
 
 #navbar a {
-    float:left;
+    float: left;
     display: block;
-    font-size: 15px;  
-    font-style: italic;
-    text-align: center;     
-    padding: 17px 5px;   
-    text-decoration: none;
-    
-    width:13.5%;
+    font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
+    font-size: 1em;
     font-weight: 600;
-    
-    
+    font-style: italic;
+    text-align: center;
+    padding: 17px 10px;
+    text-decoration: none;
+    width: 11%;
+
+
+
 }
 
- #home, #team, #profile, #data, #work, #tech, #project  {    
-    background-color: black;
+#home,
+#team,
+#profile,
+#job,
+#data,
+#work,
+#tech,
+#project {
+    background-color: none;
+    text-align: center;
+    padding: 17px 5px;
+    text-decoration: none;
+    width: 13.5%;
+    font-weight: 600;
     color: white;
-   
+
 }
 
 
 
-@media all and (max-width: 600px) {    
 
 
-#navbar a {    
-    width:12.0%;   
-    font-size: 12px;
-    padding: 4px;
-}
+@media all and (max-width: 600px) {
+
+
+
+    #navbar a {
+        width: 20.0%;
+        font-size: .8em;
+        padding: 10px;
+
+    }
 }
 
 @media all and (min-width: 601px) and (max-width:992px) {
-    
-    #navbar a {    
-    width:12.0%;   
-    font-size: 14px;
-    padding: 6px;
-} 
-   
-        
+
+
+    #navbar a {
+        width: 20.0%;
+        font-size: 1em;
+        padding: 10px;
     }
 
-@media all and (min-width: 993px) and (max-width:1300px){
+
+}
+
+@media all and (min-width: 993px) and (max-width:1300px) {
+
+    #navbar a {
+        width: 10.0%;
+        font-size: 1em;
+        padding: 10px;
+
+    }
     
-    #navbar a {    
-    width:13.0%;   
-    font-size: 15px;
-    padding: 6px;
-    
-    }    
-    #navbar a:hover{     
-   color:  cadetblue;
-}  
+  
+
 }
 
 
 
- 
