@@ -186,14 +186,15 @@ img {
 }
 
 
-footer {
-    margin-left: 40%;
-}
+
 
 .copy {
     display: inline-flex;
     opacity: 65%;
     margin-top: 3em;
+    border: 1em solid white;
+    margin-right: 25%;
+    margin-left: 20%;
 }
 
 
@@ -211,6 +212,8 @@ footer {
     margin-right: .2em;
 
 }
+
+
 
 
 /*-------------------------Media Queries-------------------------*/
