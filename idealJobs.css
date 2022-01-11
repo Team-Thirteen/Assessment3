@@ -62,8 +62,47 @@ body {
 }
 
 
-.whatDifferentiates{
-  text-align: center;
-    font-size: 6em;
-    font-weight: 900;
+/*-------IdealJobTable-----*/
+
+.idealJobTableForTeam {
+    display: flex;
+            
+}
+
+.idealJobTableForTeam table {
+
+    border-collapse: collapse;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 1em;
+    font-weight: 600;
+    padding-left: 1em;
+    width: 100%;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.idealJobTableForTeam td:nth-child(2) {
+    text-align: center;
+}
+
+/*------ Generic Table styling-----*/
+table tr,
+th,
+td {
+    overflow-x: auto;
+    border: 0.1em solid #ff64b4;
+    
+}
+
+td {
+
+    padding: 1em;
+}
+
+th {
+    
+    color: #00ff00;
+    font-size: 2em;
+    
 }
