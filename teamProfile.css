@@ -57,3 +57,25 @@ body {
     opacity: 75%;
 
 }
+
+footer{
+    margin-bottom: 2em;
+    margin-top: 1em; 
+    margin-left: 40%;
+  
+   
+}
+
+.copy {   
+    display: inline-flex;
+opacity: 65%;
+}
+    
+
+
+.copy p{
+    color: #00ff00;
+    text-shadow: 2px 2px 1px black;    
+    margin-right: .2em; 
+   
+}
