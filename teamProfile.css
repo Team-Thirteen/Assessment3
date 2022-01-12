@@ -124,3 +124,28 @@ th {
     font-size: 2em;
     
 }
+
+/*------------PageFont----------*/
+
+.mainPageParagraph {
+    
+    color: #00ff00;
+    font-size: 2em;
+    text-align: left
+    
+}
+
+.commonElements {
+    
+    color: #00ff00;
+    font-size: 2em;
+    
+}
+
+.headings {
+    
+    color: #00ff00;
+    font-size: 2em;
+    text-align: center
+    
+}
