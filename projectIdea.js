@@ -23,6 +23,10 @@ function openpage(evt, memberName) {
         x.style.display = "none";
     }
     
+    var x = document.getElementById("astroman"); {
+        x.style.display = "none";
+    }
+    
    
 }
 
