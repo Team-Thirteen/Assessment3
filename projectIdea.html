@@ -27,6 +27,7 @@
     <button class="tablink" onclick="openpage(event, 'Motivation')">Motivation</button>
     <button class="tablink" onclick="openpage(event, 'Description')">Description</button>
     <button class="tablink" onclick="openpage(event, 'Tools and Tech Skills')">Tools and Tech Skills</button>
+    <button class="tablink" onclick="openpage(event, 'Outcome')">Outcome</button>
     
     <div id="projectideaheader">
     <img id="header" src="Images/ProjectIdea.png">
@@ -40,34 +41,110 @@
 
 <!--------- Tab Contents ----->
     
+
+    
+    
    <div id="Overview" class="tabcontent">
-    <h3>Overview</h3>
+    <h3>What is ToDoTopia?</h3>
     <div id="paragraphs">   
-    <p>hello from home</p>
+    <p>The Aim is to build a web-based application that links into workplace productivity, work in progress and time tracking applications to gamify Individual employee and team workloads. The application will ultimately be a web- based computer games platform that allows users to gain experience points (xp) for work done. By gamifying daily work tasks employees and Teams are incentivized by gaining experience points (Xp) to use towards building objects, such as characters or Armies in a computer game. The idea is not only to incentivize teams and help increase productivity but to foster a friendly but competitive workplace.  Individuals can play off against team members with the characters or Armies they have built up through completing work tasks over time. Workplaces could host a “game-off” as part of a weekly/monthly winddown or after a sprint or after a project go live.  </p>
         </div>
     </div> 
     
     <div id="Motivation" class="tabcontent">
-    <h3>Motivation</h3>
+    <h3>Why Gamification</h3>
     <div id="paragraphs">   
-    <p>hello from home</p>
+    <p>Gamification of tasks is not necessarily a new idea, Companies such as Habitica have been doing it for a while now in a way of making your daily task and activities rewarding by giving you a character who starts at level one and has no items. The idea is that you self-appoint yourself tasks and as you complete those tasks you are rewarded with better equipment to help your character progress. However, these applications are more on an individual basis and the game play is limited. Keeping a team motivated during a project can be difficult, but gamification has shown to keep the attention of employees and increase their productivity.</p>  
+
+        <p>What is gamification? Gamification at its core is turning work into play. There is a model known as Octalysis that explains in detail the eight core drives that gamify something whether it be a task at work or a video game.  </p>
+        <p>These eight core drives are listed below:</p>
+                        <ul>
+                            <li>Epic Meaning and calling </li>
+                            <li>Development and Accomplishment </li>
+                            <li>Empowerment and Creativity </li>
+                            <li>Ownership and Possession </li>
+                            <li>Social Influence and Relatedness </li>
+                            <li>Scarcity and Impatience </li>
+                            <li>Unpredictability </li>
+                            <li>Loss and Avoidance </li>
+                       </ul>
+        
+    <div id="octo">
+    <img id="octo" src="Images/octagon.png">
         </div>
+        <p>Every good game consists of these eight properties, and they can be used to motivate people and keep them focused. This is the motivation for ToDoTopia, to use gamification to turn completing tasks in a Jira Kanban board into a game.<p> 
+
+<h3>Some Articles on Gamification:</h3>
+       <div id="paragraphs"> 
+        <ul>
+            <li><a href="https://www.gamify.com/what-is-gamification#gamification2/">What is Gamification?</a></li>
+            <li><a href="https://www.yarno.com.au/blog/surprising-gamification-examples-overlooked/">Suprising Gamification Examples Overlooked</a></li>
+            <li><a href="https://www.growthengineering.co.uk/definition-of-gamification/ ">Definition of Gamification</a></li>
+        </ul>
+           </div>
+           </div>
     </div> 
-    
     <div id="Description" class="tabcontent">
     <h3>Description</h3>
     <div id="paragraphs">   
-    <p>hello from home</p>
+    <p>Keeping employees motivated when there are tight deadlines and large workloads can be tricky. Employees are not robots, to stay driven they need a sense of value and purpose.<br><br>  
+
+Tim Pickard’s article in <a href="https://www.business.com/articles/5-statistics-that-prove-gamification-is-the-future-of-the-workplace/">business.com</a> sights Gartner as noting “70% of business transformation efforts fail due to lack of engagement.”<br><br> 
+
+<a href="https://incentiveandmotivation.com/70-per-cent-business-transformation-efforts-fail-due-lack-engagement/">Incentive and Motion</a> also notes this same Gartner reference and the article in addition references Aon Hewitt’s  <a href="https://www.aonhumancapital.com.au/AON.Marketing/media/Australia/pdf/Resources/Reports%20and%20research/2017-trends-in-global-employee-engagement.pdf">2017 Trends in Global Employee Engagement Study</a> which “suggests that less than 63% of employees feel engaged at work. That means almost 40% of your people are feeling disengaged from their jobs right now.”<br><br>  
+
+ToDoTopia provides a platform in which employees can stay motivated and enthused to clear workloads and stay in touch with deadlines. By gamifying team workloads and providing a platform for employees to engage each other in a social environment. ToDoTopia provides an outlet whereby employees can compete against each other fostering a fun and collaborative workplace.  </p>
+        
+        <h3>ToDoTopia Web Application</h3>
+        <p>The web application will be the main platform. It will be a cloud-based application that will host the computer game. This will be the main space point for ToDoTopia and will provide a focal point for workplace interaction and fun. Each company or business enterprise will have a company space. Each user will have a space on their company’s ToDoTopia page. In addition, each company space will have an administration role assigned. </p>
+        
+        <h3>Api links to workplace productivity, work in progress and time tracking applications</h3>
+        <p>Most enterprises these days use some form of third-party web application that tracks work in progress (wip), Such as Atlassian’s Jira, Microsoft’s Azure DevOps and salesforce. The Idea is for the ToDoTopia Computer games platform to link into these applications via there respective API’s. Research will be needed to discover what companies will offer or allow an API integration into their platform but looking into developer documentation both <a href="https://docs.microsoft.com/en-us/azure/devops/integrate/?view=azure-devops">Azure Dev Ops</a> and <a href="https://developer.atlassian.com/cloud/jira/software/rest/intro/">Jira</a> offer some form of third party integration.</p>
+        
+        <h3>So how does it all work?</h3>
+        <p>When a company decides they wish to gamify their teams work using ToDoTopia they will be able to integrate their workplace productivity, work in progress and time tracking applications. A good example of this would be the <a href="https://docs.microsoft.com/en-us/azure/devops/boards/boards/kanban-quickstart?view=azure-devops">Azure DevOps Kanban Board</a> when a team member completes a task  </p>
+        
+        <p>put image here<br><br>
+        When it comes to work in progress (wip) the Kanban board is king. As you can see the board is broken down into tasks. Each task is numbered (weighted) using story points.</p>
+        
+        <h3>Administration areas for Managers</h3>
+        <p>The Administration area for managers is predominantly set about to provide structure to the game. This role has the ability to: </p>
+        <ul>
+            <li>Manage the game set up in terms of XP</li>
+            <li>Mnagae leader board metrics</li>
+            <li>Manage game set up XP vs wip link to organisation tasks (eg Kanban board) </li>
+            <li>Mange user access e.g restrict assess is someone leaves company </li>
+            <li>User sign ins etc</li>
+        </ul>
+        
         </div>
     </div> 
     
     <div id="Tools and Tech Skills" class="tabcontent">
     <h3>Tools and Tech Skills</h3>
     <div id="paragraphs">   
-    <p>hello from home</p>
+    <p>The concept of ToDoTopia is the use of APIs to link a Kanban Board software to our video game. Jira by Atlassian will be the first application we will link to. Using JSON we will link the progress of tasks, their status, their weight and which users are assigned to complete them. These properties will be used for the game features of ToDoTopia such as points, XP, etc.<br><br> 
+
+The application will be hosted on <a href="https://aws.amazon.com/?aws-products-analytics.sort-by=item.additionalFields.productNameLowercase&aws-products-analytics.sort-order=asc&aws-products-business-apps.sort-by=item.additionalFields.productNameLowercase&aws-products-business-apps.sort-order=asc&aws-products-containers.sort-by=item.additionalFields.productNameLowercase&aws-products-containers.sort-order=asc&aws-products-compute.sort-by=item.additionalFields.productNameLowercase&aws-products-compute.sort-order=asc&aws-products-databases.sort-by=item.additionalFields.productNameLowercase&aws-products-databases.sort-order=asc&aws-products-fe-mobile.sort-by=item.additionalFields.productNameLowercase&aws-products-fe-mobile.sort-order=asc&aws-products-game-tech.sort-by=item.additionalFields.productNameLowercase&aws-products-game-tech.sort-order=asc&aws-products-iot.sort-by=item.additionalFields.productNameLowercase&aws-products-iot.sort-order=asc&aws-products-ml.sort-by=item.additionalFields.productNameLowercase&aws-products-ml.sort-order=asc&aws-products-mgmt-govern.sort-by=item.additionalFields.productNameLowercase&aws-products-mgmt-govern.sort-order=asc&aws-products-migration.sort-by=item.additionalFields.productNameLowercase&aws-products-migration.sort-order=asc&aws-products-network.sort-by=item.additionalFields.productNameLowercase&aws-products-network.sort-order=asc&aws-products-security.sort-by=item.additionalFields.productNameLowercase&aws-products-security.sort-order=asc&aws-products-storage.sort-by=item.additionalFields.productNameLowercase&aws-products-storage.sort-order=asc/">Amazon Web Services</a> (AWS). Other options would be Google Cloud and Microsoft Azure. An AWS product that ToDoTopia could use is <a href="https://aws.amazon.com/gamelift/">Gamelift</a>. GameLift is a variety of cloud-based game servers dedicated for multiplayer games, allowing for easy scalability and a low latency multiplayer experience.<br><br> 
+
+To design the game that ToDoTopia will based off, we will use <a href="https://unity.com/">Unity</a>. ToDoTopia's game will be 2.5D and web based, Unity is our game engine of choice over <a href="https://www.unrealengine.com/en-US/unreal?utm_source=GoogleSearch&utm_medium=Performance&utm_campaign=an*Internal_pr*UnrealEngine_ct*Search_pl*Brand_co*OC&utm_id=10824681733&sub_campaign=UE_Broad_EN&utm_content=existing&utm_term=unreal%20engine&gclid=CjwKCAiAlfqOBhAeEiwAYi43F8AiV6mhWXAM9zfe7S-LQAEwKrSNnYyGx9OH01SIe1LToAI_f4pnmRoCAQIQAvD_BwE/">Unreal Engine</a> and <a href="https://godotengine.org/">Godot Engine</a>. Unity is a game engine used to develop games for Web plugins, desktop platforms, consoles etc. Unity is also free to use, and games such as Among Us, Hollow Knight and Beat Saber on VR were made using Unity’s game engine. Because we will be using Unity to develop the game, C# will be the language the game uses.  </p>
+        
+        <h3>Skills</h3>
+        <p>Many skills will be required to produce ToDoTopia. Full stack .net developers will be needed for the main application. Developers must have the ability and experience to link platforms such as Jira and DevOps to ToDoTopia using APIs. <a href="https://docs.microsoft.com/en-us/archive/msdn-magazine/2014/august/unity-developing-your-first-game-with-unity-and-csharp/">Experiance with Programming games in Unity</a> and C# will be needed to develop the game. Experience with AWS hosting of applications and games will be needed to get the web app up and running. Business Analysis and Project managers will work alongside development teams in a Scrum approach enabling rapid software development.<br><br> 
+
+Regarding the skills listed above, our team requires a lot of improvement. Skills such as the use of APIs, Unity and C# are just some that we all need to develop, along with experience in Amazon Web Services and game design. We plan on developing these skills through the duration of our Bachelor of Information Technology with knowledge learned from the course and through our own exploration into the subjects. </p>
         </div>
     </div> 
 
+    <div id="Outcome" class="tabcontent">
+    <h3>Outcome</h3>
+    <div id="paragraphs">
+        <p>The Outcome of this project is to provide a web-based workplace gamification app that has the ability to link into an organisation’s workplace productivity, work in progress and time tracking applications. There are limited applications of this nature in the marketplace, and most are lacking on computer games integration side with most games being quite basic. The main outcome is to contribute to a fun, productive and competitive working environment. In addition, a leader board on the web app will allow for team and individual metrics such as xp earned and the difficulty of the task and the task completed, to be viewed by organization leaders. Additionally, by allowing a metric in the application we can also give organization leaders a snapshot of an individual’s workload and performance so that they can access and training needs and Gaps. </p>
+        
+        </div>
+    </div>
+    
+    
 <script src="projectIdea.js"></script>
     
 </body>

@@ -5,8 +5,8 @@ body {
 }
 
 .accordion {
-    background-color: #ff64b4;
-    color: white;
+    background-color: #333;
+    color: #ff64b4;
     cursor: pointer;
     padding: 18px;
     width: 100%;
@@ -46,8 +46,8 @@ body {
 
 #header {
     max-width: 60%;
-    margin-left: 27em;
+    margin-left: 50em;
     margin-top: 1.5em;
     margin-bottom: 1.5em;
-    opacity: 100%;
+    opacity: 75%;
 }
