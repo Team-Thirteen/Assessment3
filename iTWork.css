@@ -19,7 +19,7 @@ body {
 
 .active,
 .accordion:hover {
-    background-color: transparent;
+    background-color: solid;
     border-color: #99ff33;
 }
 
@@ -50,4 +50,9 @@ body {
     margin-top: 1.5em;
     margin-bottom: 1.5em;
     opacity: 75%;
+}
+
+.question1 {
+    color: #00ff00;
+    font-size: 2em;
 }

@@ -4,7 +4,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title></title>
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="Nav.css">
+    <link type="text/css" rel="stylesheet" href="itTechnologies.css">
 </head>
 
 <body>
@@ -19,20 +20,332 @@
         <a id="project" href="projectIdea.html">Project Idea</a>
     </div>
     
-    <h1>IT Technologies</h1>
+    <button class="tablink" onclick="openpage(event, 'CloudServices')" id="defaultOpen">Cloud Services</button>
+    <button class="tablink" onclick="openpage(event, 'CyberSecurity')">CyberSecurity</button>
+    <button class="tablink" onclick="openpage(event, 'MachineLearning')">Machine Learning</button>
+    <button class="tablink" onclick="openpage(event, 'Raspberry Pi')">Raspberry Pi</button>
     
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis fermentum pulvinar felis, eget commodo quam vehicula aliquet. Duis condimentum fringilla augue. Suspendisse vitae elit a est bibendum sodales. Fusce viverra faucibus lectus, eget ornare arcu consequat vitae. Nulla sed nibh in ante condimentum congue. Integer scelerisque rhoncus purus vitae tincidunt. Fusce id nibh lacinia risus condimentum tempus et eu nunc. Duis auctor arcu in magna sollicitudin egestas id vel elit. Fusce vulputate tempus velit in semper. Vivamus pellentesque orci eget tempor eleifend. Maecenas ac cursus libero.
+    
+    <div id="projectideaheader">
+    <img id="header" src="Images/ITTech.png"
+        </div>
+    
+    
+    
+    </div>
+    
 
-Fusce facilisis elit id ipsum sodales aliquet. Sed sed viverra lacus. In hac habitasse platea dictumst. Aenean commodo, nisi eu rutrum cursus, ipsum tortor laoreet lacus, elementum blandit nisl erat in est. Phasellus sodales eu nunc eu scelerisque. Donec et neque vel ante gravida tristique. Morbi porttitor velit est, eget rutrum neque volutpat at. Sed ut imperdiet enim. Sed luctus eros elit, facilisis tincidunt est facilisis sit amet. Praesent et eleifend dui. Duis convallis iaculis tincidunt. Curabitur placerat magna justo, vel placerat tellus eleifend maximus. Duis nec erat felis.
+<!--------- Tab Contents ----->
+    
 
-Phasellus accumsan nec mi eu sodales. Quisque commodo finibus metus, eget suscipit risus porta ut. Vivamus lobortis varius nibh. Etiam tincidunt auctor mauris. Donec convallis, dolor nec imperdiet mollis, risus nisl pellentesque ipsum, id mollis sem turpis quis justo. Fusce massa risus, consectetur sed cursus a, suscipit vitae purus. Nulla non urna lorem. Integer sodales nec metus eu varius. Mauris felis diam, euismod a ullamcorper non, rutrum non elit. Aenean nec eros at dolor fermentum suscipit id sed quam. Aliquam felis dui, sollicitudin sit amet suscipit a, tincidunt at nisi. Vivamus ultricies rhoncus faucibus. Cras in nisl vitae magna accumsan fermentum. Duis finibus lectus purus, vitae posuere quam pretium a. Quisque ultricies ligula erat, mattis rhoncus neque rutrum a. Nullam accumsan orci egestas, laoreet ipsum porta, euismod felis.
+    
+    
+   <div id="CloudServices" class="tabcontent">
+    <h3>What is Cloud?</h3>
+    <div id="paragraphs">   
+    <p>The term cloud stems from early network diagrams in which a cloud was used to represent a vast network, such as a wide-area network (WAN). The cloud soon came to be associated with the Internet as a whole, and the two concepts are now interchangeable.<br><br>
 
-Etiam quis ipsum metus. Sed et fermentum turpis. Aliquam sed nunc euismod, molestie nulla non, convallis tortor. Etiam sit amet leo consectetur dolor mattis bibendum nec quis libero. Fusce porttitor ac enim nec hendrerit. Ut maximus pulvinar felis, nec sagittis mi consequat at. Nam iaculis mi erat, sed pharetra felis mollis eu. Vestibulum vitae scelerisque orci, sed volutpat purus. Praesent quis mi non enim mattis pretium vitae a eros. Fusce sit amet vestibulum est, at auctor elit. Sed feugiat metus vitae ex consequat aliquet. Maecenas quis dolor bibendum, semper ante sodales, condimentum magna.
+Clouds are a term that refers to a collection of internet-connected servers that can be rented as part of a software or application service, web hosting, data hosting and sharing, software or program use are all examples of cloud services.<br><br> 
 
-Donec diam leo, rhoncus et est non, vehicula laoreet lorem. Duis quis dui et augue auctor mollis ac eleifend ipsum. Aenean non accumsan ex, in tempor neque. Nullam quis leo fringilla, blandit nunc non, accumsan libero. Quisque cursus sit amet tortor in vestibulum. Donec viverra mauris sit amet semper congue. Duis sed vulputate magna.
+Cloud services are a broad category of internet-based services that are made available to businesses and customers on demand. These services are designed to provide easy, low-cost access to applications and resources without the need for internal infrastructure or hardware. Most employees use cloud services throughout the workday, whether they realise it or not, from checking email to collaborating on papers. Infrastructure, platforms, and software that are hosted by third-party providers and made available to consumers via the internet are known as cloud services, Users only need a computer, an operating system, and internet access to access cloud services. </p><br><br>
+        
+        The list below contains a few examples of some of Cloud Service Providers
+        <ul>
+                            <li>Amazon Web Service(AWS)/li>
+                            <li>ServerSpace</li>
+                            <li>Microsoft Azure</li>
+                            <li>Google Cloud Platform</li>
+                            <li>IBM Cloud Services</li>
+                            <li>Adobe Creative Cloud</li>
+                            <li>Kamatera</li>
+                            <li>SalesFource</li>
+                            <li>SAP</li>
+                            <li>Verizon Cloud</li>
+                            <li>Linode</li>
+                        </ul>
+        <h3>What is a cloud server</h3>
+        <p>A cloud server is a centralised server resource that is hosted and distributed across a network (often the Internet) and made available to many users on demand. Cloud computing infrastructure enables cloud servers to be located anywhere in the world and deliver services remotely.<br><br>  
 
-Fusce ornare tempor erat, ut gravida mi placerat eget. Morbi dolor orci, egestas id ipsum non, ultrices consequat est. Pellentesque pretium tortor at sem blandit, vitae dignissim nibh mollis. Cras pharetra faucibus libero, maximus lacinia justo congue at. Integer hendrerit quam vel dapibus rhoncus. Etiam erat tortor, pretium ac feugiat in, pretium a arcu. Aliquam sit amet odio eu leo tincidunt commodo. Nam eu cursus risus, vitae pulvinar neque. Donec sit amet tortor consequat, congue tellus quis, tristique orci. Morbi sodales ultrices elit, quis viverra metus facilisis non. Etiam sit amet tincidunt metus. Cras et ipsum tincidunt, sodales sem mattis, sagittis nibh. Vivamus accumsan turpis in ante dignissim maximus. Nam tempor, augue sit amet dapibus cursus, arcu libero efficitur nibh, a aliquam orci magna ut elit.
+Cloud servers are a crucial component of cloud computing. The widespread deployment of server virtualization has aided cloud computing's rise and continued expansion.<br><br> 
 
-Praesent malesuada justo nec euismod consectetur. Nullam quis tellus at ligula hendrerit luctus. Donec cursus blandit nisi a tempus. Morbi ut sapien magna. Pellentesque.</p>
+The creation of a cloud server is made possible via virtualization. A hypervisor is a piece of management software that connects and virtualizes physical servers by abstracting and pooling their resources to create virtual servers. These virtual resources can then be automated and made available via the cloud for internal or cross-company use.<br><br> 
+
+Clouds have grown in popularity throughout the years, and I believe that everyone in this day and age has used or is utilising something related to clouds/cloud servers.<br><br>  
+
+The following are some of the cloud's current features: </p>
+        <ul>
+                            <li>On demand self service
+            <p>the most significant and valuable components of Cloud Computing since it allows the user to keep track of the server's uptime, capabilities, and network storage allocation. This function also allows the user to keep track of the computer's capabilities. </p></li>
+                            <li>Simple Maintenance
+            <p>The servers are simple to operate, and downtime is minimal, if not non-existent in some circumstances. Every time a new version of Cloud Computing is released, it improves exponentially. </p></li>
+                            <li>Large network access
+            <p>With the use of a device and an internet connection, the user can view the cloud's data or upload data to the cloud from anywhere. These capabilities are available throughout the network and can be accessed over the internet. </p></li>
+                            <li>Security
+            <p>One of the most appealing aspects of cloud computing is its security. It takes a snapshot of the data stored so that it doesn't get lost if one of the servers is broken. The data is saved on storage devices that cannot be hacked or accessed by unauthorised individuals. The storage service is efficient and trustworthy. </p></li>
+                            <li>Resource Pooling
+            <p>It signifies that the Cloud provider used a multi-tenant architecture to pull computing resources to provide services to numerous clients. Various physical and virtual resources are assigned and reassigned based on the needs of the consumer. </p></li>
+                            <li>Automatic System
+            <p>automatically analyses the data required and provides metering. </p></li>
+                            <li>Economical
+            <p>It is a one-time expenditure because the firm (host) must purchase storage and just a portion of it can be shared among several companies, saving the host money on a monthly or annual basis. </p></li>
+                            <li>Edge Computing
+            <p>Edge computing is a distributed information technology architecture in which client data is processed as close to the originating source as possible at the network's perimeter.<br><br> 
+
+It's all about the location when it comes to edge computing. Data is produced at a client endpoint, such as a user's computer, in traditional enterprise computing. That data is transferred through a wide area network (WAN), such as the internet, to the corporate LAN, where it is stored and processed by an enterprise application. The work's results are subsequently sent back to the client's endpoint. For most common commercial applications, this is still a tried-and-true client-server computing architecture. </p></li>
+                            <li>Micro Server
+            <p>A micro server is a small server appliance that functions similarly to a traditional server. Micro servers are off-the-shelf computers that are designed to be simple to set up and maintain. The manufacturer will preinstall and configure the operating system, hardware, and applications on a mini server. </p></li>
+                            <li>Availability
+            <p>The Cloud's capabilities can be tailored to the needs of the user and greatly expanded. It evaluates storage utilisation and, if necessary, allows the user to purchase more Cloud storage for a modest fee.<br><br> 
+
+  
+
+Clouds, cloud services, and cloud servers, in my opinion, have come a long way and may have a promising future ahead of them, as there are many new features on the way, such as
+                <ul>
+                            <li>Multi-Cloud and joint cloud provider offerings</li>
+                            <li>Going Serverless</li>
+                            <li>Automated cloud Orchestration and Optimization</li>
+                            <li>Growth of SASE</li>
+                            <li>Improved privacy and cloud migration</li>
+                            <li>Improved cloud management</li>
+                        </ul>
+        </ul> 
+                                <h3>Summary</h3>
+                                <p>Clouds, cloud servers, and cloud services will only improve with time, so I believe this will have an enormous impact. As of next year, I anticipate that multi-cloud and combined cloud provider offers will be one of the important future undertakings. Next year, multi-cloud and joint provider cloud products will start to appear as providers realise, they can collaborate to speed up go-to-market launches, capitalise on mutual strengths, and "take on the 800-pound monster" that is (AWS) Amazon Web services. Another important change to the cloud, in my opinion, will be greater privacy and security, as some individuals still have reservations about putting personal information online after hearing horror stories about cloud companies having data leaks and being hacked. I am confident that these new features will assist cloud users because clouds will only develop with time, get more secure and with all future projects centred on the cloud, I feel that this will only result in more work for many organisations engaged<br><br>  
+
+  
+
+I believe with all the ongoing work with clouds, cloud servers and services it will only make me more intrigued to use the cloud as I already do, purely because it free’s up room on my computer's hard drive and makes it easier to share important files with classmates and friends and has been really handy with sharing photos and video files to my brother as he is a photo/video editor, there has also been times where the cloud has come in clutch with backing up important files that I had lost from my computer so the cloud can be pretty handy with backing up important files, another thing I’m still learning about is  a new cloud service feature (cloud gaming) where you are able to run video games on nearly any devices thanks to the cloud. My brother and one of my good friends are forever using (OneDrive) as their job revolves around photo and video editing so they are always sharing files with one another. 
+                                
+                                
+                                </p>
+        
+        <h3>References</h3>
+        <ul>
+            <li><a href="https://www.guru99.com/cloud-computing-service-provider.html ">Guru99 Cloud Service</a></li>
+            <li><a href="https://searchcloudcomputing.techtarget.com/definition/cloud-server ">TechTarget</a></li>
+            <li><a href="https://www.globo.tech/cloud-hosting-features ">Globo Tech</a></li>
+            <li><a href="https://cloud.vmware.com/providers?gclid=CjwKCAiAz--OBhBIEiwAG1rIOnaYNteQlkHVHqw2r6mB-2X3xJ9adkrJo-6czUDNQuE7N9EbEzKd0RoC4NYQAvD_BwE&gclsrc=aw.ds ">Cloud Vmware</a></li>
+            <li><a href="https://www.ibm.com/cloud/learn/cloud-server ">Imb</a></li>
+            <li><a href="https://www.crn.com/news/cloud/10-future-cloud-computing-trends-to-watch-in-2021 ">Crn</a></li>
+            <li><a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.crn.com.au%2Fnews%2Fservers-australia-picks-hpe-amd-for-cloud-hosting-infrastructure-568377&psig=AOvVaw3YOm6s9msF2wldIXEpxb7X&ust=1641994097466000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCPjd6evmqfUCFQAAAAAdAAAAABAD ">Cloud hosting infrastructures</a></li>
+        </ul>
+                            
+                       
+        
+        
+        </div>
+    </div> 
+    
+    <div id="CyberSecurity" class="tabcontent">
+    <h3>What is CyberSecurity</h3>
+    <div id="paragraphs">   
+        <p>Cybersecurity is the practise of securing systems, networks, and programs from digital threats is known as cybersecurity. These cyber-attacks are typically targeted at gaining access to, altering, or destroying sensitive data, extorting money from users, or disrupting normal corporate activities. 
+
+Because there are more devices than humans nowadays, and attackers are growing more inventive, putting in place effective cybersecurity measures is very difficult. 
+
+There are a few different types of cybersecurity threats, some are  </p>
+        
+        <h3>Phishing</h3>
+        <p>Phishing is the act of sending fake emails that look like they came from a credible source. The main goal of phishing is to steal sensitive information such as credit card details and login credentials. It's the most known form of cybercrime. </p>
+        
+        <h3>Ransomware</h3>
+        <p>Ransomware is malicious software that encrypts and holds files hostage. Its goal is to extort money by blocking access to data or the computer system until a ransom is paid, but there is no assurance that your files or system will be recovered. There are a fair few types of ransomwares but some of the well know ransomwares are</p>
+        
+        <ul>
+                            <li>Ryuk</li>
+                            <li>Maze</li>
+                            <li>REvil (Sodinokibi)</li>
+                            <li>Lockbit</li>
+                            <li>Dearcry</li>
+                            
+                        </ul>
+        <p>Ransomware must get access to a target system, encrypt the files on it, and demand a ransom from the victim in order to be successful. While the specifics of implementation differ from one ransomware variation to the next, all three stages remain the same. </p>
+        
+        <h3>Malware</h3>
+        <p>Malware is a form of software that aims to gain unauthorised access to a computer or do harm to it. Malware can infect personal computers, cell phones, tablets, servers, and even equipment, to name a few. The first sort of malware to be produced was a computer virus. Malware infects a computer by deceiving users into downloading and installing a program they should not. When the user clicks or installs the software, the malicious code does action the user did not expect or plan, such as self-replication in various portions of the file system. Installing software that collect keystrokes or commandeer system resources, frequently without the user's knowledge, while significantly slowing down the machine and posing a security risk. Access to files, programs, and even the operating system can be restricted.<br><br>
+            Malware refers to various sorts of malicious software, including viruses, and cybercriminals employ it for a variety of reasons, including stealing information. Such as</p>  
+        
+        <ul>
+            <li>Persuading a victim to provide personal information in order to commit identity theft </li>
+            <li>Stealing credit card or other financial information from the target  </li>
+            <li>Taking control of a large number of computers in order to perform service dos attacks against other networks </li>
+        </ul>
+        
+        
+        <h3>Social Engineering</h3>
+        <p>Adversaries employ social engineering to deceive you into divulging crucial information. They can demand a monetary payment or get access to your personal information, it can also make you more inclined to click on links, download malware, or believe a malicious link, social engineering can be used with any of the risks outlined above.<br><br> 
+
+  
+
+Everyone benefits from improved cyber defence strategies in today's linked society. A cybersecurity attack on an individual level can result in everything from identity theft to extortion attempts to the loss of crucial data such as family photos. Critical infrastructure, such as hospitals, and financial services organisations. It is critical to keep these, and other institutions secure in order for our society to function. </p>
+        
+        <h3>Some ways to stay safe and secure Cyber-Attacks</h3>
+        <h4>Secure your Device</h4>
+        <p>For example, instal anti-virus software, create a strong password, and use Fingerprint or Face ID whenever available. However, there are a number of simple things you can do to be safe, including never saving your login credentials online, keeping your device up to date, backing up all of your gadgets, avoiding public Wi-Fi, and securing your online accounts. This might be as simple as adding your phone number to your account so that you are needed to enter a code that is texted to you whenever you log in. Other ways to secure your device would be to use a VPN, choose a smart anti malware, avoid installing apps from places you don’t trust and finally just spread awareness about cybersecurity sharing is caring after all. </p>
+        <h4>Trust no One</h4>
+        <p>While it might seem full on, be on the watch for misleading emails and hijacked websites (knows as phishing). Interacting with them can put your data at risk and can lead to the download of malware. </p>
+        
+        <h3>Summary</h3>
+        <p>I feel that the future of cybersecurity will be difficult to forecast due to the industry's constant evolution in order to tackle cyber criminals' shifting behaviours and new attack methods. Cyber criminals, I believe, will be on par with cybersecurity, if not even ahead of it. I also believe that in the not-too-distant future, AI will play a role in cybersecurity. Artificial Intelligence (AI) has matured as a technology in numerous industries during the last few years. Today, artificial intelligence (AI) and machine learning algorithms can automate processes, crunch data, and make conclusions considerably faster than a human could all though new technologies, such as AI, however, inherently pose a cybersecurity risk because potential exploits are unknown at the time of introduction. As more companies rely on machine learning for mission-critical operations, AI systems will undoubtedly become a big target for hackers.<br><br> 
+
+  
+
+I believe that the biggest influence on cybersecurity will be when they add AI features there's been a lot of talk about AI having a vital part in the future of cybersecurity, and Cohen Wood says, "I believe that if AI is not accepted, we're in trouble." I honestly believe that in the not-too-distant future, it will be bot versus bot, and if cyber attackers get their hands on AI before cybersecurity, things will get ugly. I really don’t think there will be any lost of jobs if an AI feature was implemented as the bots will most like require maintenance plus human intervention will still be required because humans are always required and make up at least half of the answer, However, I believe that if AI becomes a feature of cybersecurity, many present and future workers will be required to pursue a degree in order to be considered for jobs using AI. Cyber security is continually evolving, and new ideas and perspectives are always welcome., I believe that if an AI feature were to be implemented, it would most likely affect the workers because it would increase their workload and possibly require them to be more hands-on, especially if they are working on AI's. I also believe that users will benefit from AI cyber security because it will provide them with more protection and security.<br><br> 
+
+  
+
+I believe that if an AI function were to be introduced into cybersecurity, it would most certainly assist me significantly, as I am a big fan of technology and being safe online. In my opinion, if an AI feature were to appear in the near future, it would be extremely advantageous because AI learning algorithms can be used to automate activities, analyse data, and make conclusions considerably faster than a human could. My family isn't big on technology, but I have a friend who has had a bad experience with it. For example, he fell for phishing links, exposing all of his personal information. The attacker was then able to download a mouse controlling program and go through his computer, changing some of his passwords because he had auto fill enabled. The attacker managed to start locking him out of most of his major social networking and streaming accounts, the attacker even found his credit card details attached to some of his accounts and proceed to use his card, So, if AI features can somehow prevent phishing and other forms of assault, or guide people into realising it is a bogus link, I am confident AI will be a tremendous advancement in the future. </p>
+        
+        <h3>References</h3>
+        <ul>
+                            <li><a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.caplinked.com%2Fblog%2Fimportance-of-cybersecurity%2F&psig=AOvVaw3trWgBCH0YQsSP-y6RDPj3&ust=1641994329109000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCIjm49bnqfUCFQAAAAAdAAAAABAD">Importance of CyberSecurity</a></li>
+                            <li><a href="https://securityintelligence.com/articles/future-of-cybersecurity-2031/ ">Security Intelligence</a></li>
+                            <li><a href="https://privacysavvy.com/security/safe-browsing/cybersecurity-tips/ ">Privacy</a></li>
+                            <li><a href="https://benheine.com/15-tips-to-protect-yourself-from-cyber-attacks/ ">Protecting yourself</a></li>
+                            <li><a href="https://www.ibm.com/au-en/topics/cybersecurity ">CyberSecurity Topics</a></li>
+                            <li><a href="https://www.kaspersky.com.au/resource-center/definitions/what-is-cyber-security ">Kaspersky</a></li>
+                            <li><a href="https://www.checkpoint.com/cyber-hub/threat-prevention/ransomware/ ">Threat preventation</a></li>
+                            
+                        </ul>
+        
+        
+        
+           
+        </div>
+           </div>
+     
+    <div id="MachineLearning" class="tabcontent">
+    <h3>What is Machine Learning</h3>
+    <div id="paragraphs">   
+    <p>Machine learning is an area of artificial intelligence and computer science that focuses on using data and algorithms to mimic the way humans learn, with the improvement of accuracy over time. In simple terms, it’s the concept of machines being able to carry out tasks in a way that we would consider smart (Bernard Marr).  </p>
+        
+        <h3>Machine Learning in the Business World</h3>
+        <p>There has been a lot of progress made in the field of machine learning. Machine learning is becoming increasingly popular and is being used every day. Today, machine learning is essential to many businesses around the globe. Companies and businesses collect a lot of data, its somewhat of the lifeblood of all businesses. These businesses are increasingly using data-driven decisions, the outcome of these decisions can result in keeping up with the competition or falling behind. These businesses use machine learning to make decisions quickly and precisely so that they keep up with the competition. </p>
+        
+        <h3>The state of machine learning</h3>
+        <p>The state of machine learning today is mostly used for business. It’s used in retail for upselling and cross-channel marketing. Healthcare and life sciences use it for disease identification and also to help with risk management. Travel and hospitality use it for pricing. Financial services use machine learning to help with risk analytics and regulation. Energy companies use it to check energy demand and supply optimization. Manufacturing companies use machine learning for predictive maintenance and condition monitoring. </p>
+        
+        <h3>What machine learning will look like in the future</h3>
+        <h4>Quantum Computing</h4>
+        <p>Quantum computing is one advancement that will be used in the near future to enhance machine learning. Quantum computing will be used to boost the machine learning capabilities, performance and allows for ssimultaneous multi-state operations. Quantum computing enables faster data processing, improve data analysis and allows for better insights and decisions. An example of how powerful this is, is that google performed a task us9ing a quantum computer. This task took 200 seconds, on the worlds best supercomputer it would have taken 10,000 years to complete. This is how powerful this technology is and what it can do to machine learning in the next three or so years.  </p>
+        
+        <h4>Self-driving cars</h4>
+        <p>We have seen with the tesla, how the car can drive for you, this is done using machine learning. Self-driving cars may be the future on our roads, maybe not in the next three years or so but it will aid in the google self-driving car. Driverless cars are possible as machines learn to identify objects, interpret situations, and make decisions based on object detection and object classification algorithms. They do this by detecting objects, classifying them, and interpreting what they are. This technology is very good, but what will the future look like for self-driving cars? As machine learning evolves so will the self-driving cars. The safer the cars will get means that these self-driving cars can turn into workspaces or entertainment spaces for the passengers. Machine learning will help with enhanced safety features and the ability to learn routes better.  </p>
+        
+        <h3>What technology or software will make machine learning possible</h3>
+        <p>Huge amounts of talent and resources are being used to accelerate the growth of machine learning. Open-source AI technologies are improving and becoming more efficient to aid in the process of machine learning. TensorFlow is an open-source machine learning framework. It is created by Google and allows for the development of neural networks. Keras is an open-source software library. It is designed to simplify the creation of deep learning modules. Scikit-learn is also an open-source library used for machine learning. Theano is an open-source python library. It allows users to easily create various machine learning models. Theano enables the user to simplify the process of optimizing, defining and assessing mathematical expressions. Caffe is a machine learning framework. Caffe allows for expressiveness, speed and modularity of machine learning. Torch is a machine learning library. It allows for a wide variety of algorithms that are used for deep learning.  </p>
+        
+        <h3>What is the likely impact of machine learning?</h3>
+        <p>The potential impact of the development of machine learning can be massive. Machine learning can impact businesses greatly. It can identify trends and patterns easily, it improves itself over time, its self-sufficient, saves time and is energy efficient. Machine learning can greatly impact healthcare, agriculture, financial services and even transportation.  </p>
+        
+        <h3>What is likely to change and who is likely to be affected</h3>
+        <p>There are many things that are going to change. Self-driving cars may be more available, safer and also can transform your driving experience. Machine learning will help with the delivery of goods and can also help with drones used in the military There is likely to be faster patient diagnosis in the healthcare sector. Machine learning can help predict health problems based on the patients age, genetic history etc. Machine learning will help with faster detections of cancer and more accurately than any pathologist. This can help with freeing up doctor times and help with hospital staff and efficiency. The way schools are run is likely to change. Machine learning gives the resources to manage data, record individual performance, customized reports, showing each students specific needs. Machine learning will help with teaching as some tasks can be automated.  The way we use our devices will change, with machine learning tailoring our experiences. Feeds, notifications and much more will be more tailored to the user. What we do, where we travel, web searches, behaviour, interactions and decisions made will be examined by machine learning. Machine learning will be able to make decisions for us, from what music we want to listen to, to what we want to watch on YouTube or Netflix. Machine learning will be able to create playlists based on the users behaviour. Smart search engines will also be able to optimize our searches with keywords or responses from the user.<br><br>
+        
+            One of the main downsides of machine learning is that it takes jobs. Jobs such as accountants, factory workers, paralegals and radiologists are just a few jobs that Machine learning will take over in the future.  </p>
+        
+        <h3>How will machine learning impact your daily life? </h3>
+        <p>Machine learning will definitely impact my daily life. Automated transport and self-driving cars will impact how I travel. I might be able to get some extra sleep or be able to do some study on my way to work. Health care will also be a major impact, if I am sick or injured, faster and safer transport to hospitals, as well as faster and more efficient examinations, resulting in less waiting times. Machine learning will be able to help me if it detects fraudulent behaviour while it is happening. Allowing me to close my bank accounts or it may even do that for me. Media will be personalised to me, I won’t have to scroll and follow accounts I like, the machine learning will learn what I like and tailor my social media and news feeds for me. Machine learning will make the place I live in cleaner, with Machine learning playing a vital role in preventing environmental damage. </p>
+        
+        <h3>How will machine learning impact family or friends</h3>
+        <p>Machine learning will affect my friends and family a lot. Elderly care will change with robots with machine learning software will be able to communicate and interact with elderly people. It will provide entertainment and company, as well as helping elderly people move around and do regular tasks. It will help with home security, providing AI-integrated cameras and alarm systems. These systems will use facial recognition software and machine learning software to learn who frequents the house often. This will allow the security systems to detect people who shouldn’t be on your property instantly, and will be able to automatically call emergency services. The systems will also be able to send notifications reminding you to walk the dog or to let you know that the kids are home from school.  </p>
+        
+        <h3>references</h3>
+        
+        <ul>
+                            <li><a href="https://www.sas.com/en_au/insights/analytics/machine-learning.html.">Why machine learning matters</a></li>
+                            <li><a href="https://www.ibm.com/cloud/learn/machine-learning.">what is Machine Learning</a></li>
+                            <li><a href="https://mindy-support.com/news-post/how-machine-learning-in-automotive-makes-self-driving-cars-a-reality/.">Self driving cars</a></li>
+                            <li><a href="https://www.westagilelabs.com/blog/pros-and-cons-of-implementing-machine-learning-in-your-projects/.">Pros and cons</a></li>
+                            <li><a href="https://www.forbes.com/sites/ashleystahl/2021/03/10/how-ai-will-impact-the-future-of-work-and-life/?sh=30abc78b79a3 ">How ai will impact the future</a></li>
+                            <li><a href="https://elitedatascience.com/machine-learning-impact.  ">Impacts on everyday life</a></li>
+                            
+                        </ul>
+        
+        </div>
+    </div> 
+    
+    <div id="Raspberry Pi" class="tabcontent">
+    <h3>What is Raspberry Pi and what does it do?</h3>
+    <div id="paragraphs">   
+    <p>Compact single board computers and controllers have recently been growing in popularity and many new uses for them are being implemented and experimented with by professionals, hobbyist tinkerers and students. Most notable of the single board computer market is the Raspberry Pi and other SBC’s that have been inspired by them. For the controllers the most notable is the Arduino which is a compact circuit board with a micro-controller chip, the board itself is often referred to as a microcontroller.<br><br> 
+
+Eben Upton the founder of Raspberry Pi Foundation noticed that there were less people enrolling in computer science as opposed to past years "The numbers were just awful, they had dropped off a cliff. We'd gone from having about 600 applicants for 80 or 90 places at the turn of the century down to under 250 people."  (Nick Heath 2018). They wanted to make a fully functional computer that could be mass produced and distributed at an affordable price for a wide range of demographics so that every household might own an easy to program device capable of computing tasks and children could be exposed to computers and programming at a younger age (Raspberry Pi Foundation 2019).<br><br> 
+
+The Ivrea Interaction Design Institute created the Arduino for students to assist them in learning to program and set up hardware (Arduino 2021). As they gained traction they began offering more board options and Shields or ‘daughter board’ which are expansion hardware that can add a wide selection of specific functions such as ethernet, smoke detection, camera, or a joystick to the main board. This customizability has popularized the Arduino with hobbyists and professionals alike.  </p>
+        
+        <h3>What can be done now</h3>
+        <p>Though the Raspberry Pi was created with the intention of being a mass-produced microcomputer for learning, it has since become popularised as a computer that powers many creative projects.<br><br>
+            some of which include:</p>
+            <ul>
+                            <li>A system with an OS to function as a regular PC. </li>
+                            <li>Hosting a website. With the appropriate web server software on a Pi you can store HTML files so that people can view your websites or you can use it as a home server and share storage between computers. </li>
+                            <li>Creating retro gaming consoles or putting them inside of an arcade system and downloading emulators to play backed-up game files from your retro game cartridges or perhaps classic PC games.  </li>
+                            <li>Home media centres hooked up to a TV as the Pi can load TV shows or movies from a hard drive using software like Kodi or an alternative.  </li>
+                            </ul>
+        
+            <p>Arduinos could be used for controlling almost everything inside of your home perhaps commanded by a Raspberry Pi for automatic projects.<br><br>
+                Some of which include:</p>
+                <ul>
+                            <li>Robots. Arduinos can be used to control robots and give them basic commands via a controller or to autonomously perform certain actions when a condition is met for example: a moving robot might backpedal once its movement is impeded and turn to avoid an obstacle. </li>
+                            <li>A digital thermometer. With a thermometer expansion and display you can have the Arduino give you a temperature reading and can even log the temperatures. </li>
+                            <li>A camera. A camera could be used in conjunction with a range of sensors to activate when a trigger happens such as temperature change, motion detected, switch activated or at a certain time of day. </li>
+                            </ul>
+        
+        <p>Raspberry Pi shares it’s board layout as open source material on its website as well as offering Pi OS, an open source operating system based on Debian Linux. This adds to the customizability of the Raspberry Pi as you can modify the operating system or install a completely new OS if you desire.<br><br> 
+
+Both of these organizations' devices are distributed by retailers or made by a third party as they are open source since both their design is openly available to anyone and their programming software is also available for free and is open source as well.  </p>
+        
+        <h3>What is likely to be able to be done soon(say in the next 3 years?)</h3>
+        <p>Due to the compact nature and their ability to control devices in complex ways, in the near future we will likely see similar SBCs or Microcontrollers in everyday use. They could be implemented commercially in the environment to control everything automatically for example: street lights could be disabled if no sensors have been triggered by a human to turn them on, or if the light level drops to a low level. Perhaps a buildings climate system could be controlled by thermometers situated around the building and disabled via cameras that keep track of where people are inside the building. </p>
+        
+        <h3>What technological or other developments make this possible</h3>
+        <p>As technology is seeing great advancements and computers are becoming more capable and more hardware is being added to them, so too is the cost of acquiring them is increasing, Raspberry Pi, Arduinos, and their counterparts go against the grain and use technological advancements and scales them back into a lower powered, smaller form-factor and affordable package which takes advantage of modern technology in a unique way by making them almost disposable. </p>
+        
+        <h3>What is the likely impact</h3>
+        <p>The ability to manufacture these compact SBCs and microcontrollers at a low price enables individuals or organisations to acquire them and modify them for niche purposes as opposed to developing their own complex circuit boards or contracting an engineer to create them which would be expensive to a degree whereas a home tinkerer or hobbyist would not even be able to access this technology and an organisation may decide it is not worth developing the board due to costs. </p>
+        
+        <h3>What is the likely change</h3>
+        <p>A larger demographic of people has become able to access these boards and now we will likely see more creative projects emerging and the amount of people learning to program and build these will perhaps grow exponentially as their advantages and ease of use become more universally known. </p>
+        
+        <h3>Which people will be most affected and how</h3>
+        <p>The accessibility of these boards greatly benefits students and home tinkerers/hobbyists. Students are able to gain access to computers to program and microcontrollers to experiment with, whilst tinkerers and hobbyists are able to create their own devices rather than buying ones that are commercially produced. </p>
+        
+        <h3>Will this create, replace or make redundant any current jobs or technologies</h3>
+        <p>Many businesses are beginning to look to Raspberry Pi when they want to prototype a new product. Oftentimes an organization's tech infrastructure costs a significant amount of money and when an immediate solution to an arising issue is needed they may not have the funds, in this situation a Raspberry Pi may be the answer to their problems. Some companies like The Financial Times have used the Pi device to augment their systems, Financial Times used LEDs to visually represent alerts from their Nagios server monitoring software when they were being sent more alerts than they could humanly process (Nick Heath 2014). Used in this way the low-cost and high availability of technologies like the Pi allow organizations a quick fix to problems while they look for a more permanent solution or are waiting for a system to be put in place.<br><br> 
+
+If this technology is used for automating menial tasks with robots, then perhaps people with a lower level of education will be forced to obtain greater education to find employment as robots take over low-skilled jobs. However, the goal of both the Raspberry Pi foundation and Arduino is to make the hardware and software available to everyone so that they can gain experience with computers and controllers.<br><br> 
+
+Ultimately it would be a shift of roles as the task might be performed autonomously by a robot, but then the robot would require someone to design, assemble and maintain it thus creating jobs in that regard. </p>
+        
+        <h3>How will this affect you</h3>
+        <p>The low cost of these boards will allow me to acquire an ample amount to experiment with a range of projects which will allow me to increase my proficiency using this technology and move onto more difficult technologies whilst the projects I accomplish with these devices might assist me.<br><br> 
+
+Additionally having my own personal cloud storage will give me greater control over the privacy of my data as there would be no third-party that could potentially access my files, if I require more storage then I may add more for just the cost of the expansion rather than paying fees for a service.  </p>
+        
+        <h3>How might this affect members of your family or your friends</h3>
+        <p>This technology would be a good starting point for my young niece and nephew to begin gaining experience and an understanding of computers. Under adult guidance they could use simple programming languages like <a href="https://scratch.mit.edu/about">Scratch</a> to make games or animations in a way that is exciting and enjoyable for children. These basic skills will lay the groundwork for them advancing their education down an IT path in the future if they desire.  </p>
+        
+        <h3>References</h3>
+        <ul>
+                            <li><a href="https://www.techrepublic.com/article/inside-the-raspberry-pi-the-story-of-the-35-computer-that-changed-the-world/">Inside Raspberry Pi</a></li>
+                            <li><a href="https://static.raspberrypi.org/files/Raspberry-Pi-Foundation-Theory-of-Change.pdf">Raspberry foundation</a></li>
+                            <li><a href="https://www.techrepublic.com/blog/european-technology/how-businesses-are-getting-creative-with-the-raspberry-pi/">How businesses are getting creative with raspberry Pi</a></li>
+                            <li><a href="https://www.arduino.cc/en/abou">Arduino</a></li>
+                            <li><a href="https://projects.raspberrypi.org/en/projects/raspberry-pi-getting-started/2">Raspberry Pi Bord screenshot</a></li>
+                            
+                        </ul>
+        
+                
+        
+        
+        
+        
+        
+        
+        </div>
+    </div> 
+
+    
+<script src="itTechnologies.js"></script>    
 </body>
 </html>
