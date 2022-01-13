@@ -20,44 +20,42 @@
         <a id="tech" href="itTechnologies.html">IT Tecnologies</a>
         <a id="project" href="projectIdea.html">Project Idea</a>
     </div>
-
-    <div id="Overview" class="tabcontent">
-        <h1>Overview</h1>
-        <p>an overview...</p>
-    </div>
-      
-    <div id="Motivation" class="tabcontent">
-        <h1>Motivation</h1>
-        <p>the motivation...</p> 
-    </div>
-      
-    <div id="Description" class="tabcontent">
-        <h1>Description</h1>
-        <p>a description...</p>
-    </div>
-      
-    <div id="ToolsTech" class="tabcontent">
-        <h1>Tools + Tech</h1>
-        <p>how. what tools...</p>
-    </div>
-
-    <div id="Skills" class="tabcontent">
-        <h1>Skills</h1>
-        <p>what skills are needed...</p>
-    </div>
-
-    <div id="Outcome" class="tabcontent">
-        <h1>Outcome</h1>
-        <p>outcome???</p>
-    </div>
     
-    <!-- Haven't changed this... -->
-    <button class="tablink" onclick="openCity('London', this, 'red')" id="defaultOpen">London</button>
-    <button class="tablink" onclick="openCity('Paris', this, 'green')">Paris</button>
-    <button class="tablink" onclick="openCity('Tokyo', this, 'blue')">Tokyo</button>
-    <button class="tablink" onclick="openCity('Oslo', this, 'orange')">Oslo</button>
-    <!-- ... -->
+    <!------- Main Tab Buttons --->
+    
+    <button class="tablink" onclick="openpage(event, 'Overview')" id="defaultOpen">Overview</button>
+    <button class="tablink" onclick="openpage(event, 'Motivation')">Motivation</button>
+    <button class="tablink" onclick="openpage(event, 'Description')">Description</button>
+    <button class="tablink" onclick="openpage(event, 'Tools and Tech Skills')">Tools and Tech Skills</button>
+    
+    <div id="projectideaheader">
+    <img id="header" src="Images/ProjectIdea.png">
+        </div>
+    
 
+<!--------- Tab Contents ----->
+    
+   <div id="Overview" class="tabcontent">
+    <h3>Overview</h3>
+    <p>hello from home</p>
+    </div> 
+    
+    <div id="Motivation" class="tabcontent">
+    <h3>Motivation</h3>
+    <p>hello from home</p>
+    </div> 
+    
+    <div id="Description" class="tabcontent">
+    <h3>Description</h3>
+    <p>hello from home</p>
+    </div> 
+    
+    <div id="Tools and Tech Skills" class="tabcontent">
+    <h3>Tools and Tech Skills</h3>
+    <p>hello from home</p>
+    </div> 
+
+<script src="projectIdea.js"></script>
+    
 </body>
-
 </html>
