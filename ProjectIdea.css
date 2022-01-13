@@ -5,6 +5,41 @@ body {
     color: white;
 }
 
+/* Below is what I copied and pasted, but beyond was what James added a few weeks back. */
+/* Style the tab buttons */
+.tablink {
+    background-color: #333;
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 25%;
+  }
+  
+  /* Change background color of buttons on hover */
+  .tablink:hover {
+    background-color: #555;
+  }
+  
+  /* Set default styles for tab content */
+  .tabcontent {
+    color: white;
+    display: none;
+    padding: 50px;
+    text-align: center;
+  }
+  
+  /* Style each tab content individually */ 
+  #Overview {background-color:red;}
+  #Motivation {background-color:green;}
+  #Description {background-color:blue;}
+  #ToolsTech {background-color: khaki;}
+  #Skills {background-color:orange;}
+  #Outcome {background-color: hotpink;}
+
 #mainArea {
     font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
     width: 80%;
