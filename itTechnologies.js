@@ -23,7 +23,11 @@ function openpage(evt, memberName) {
         x.style.display = "none";
     }
     
-    
+   //Hide h1 element onclick of tech pic 
+    var x = document.getElementById("technologyPic"); {
+        x.style.display = "none";
+    }
+     
     
    
 }
