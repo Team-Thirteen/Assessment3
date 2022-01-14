@@ -188,3 +188,282 @@ border: 0;
 
 }
 
+/*-------------------------Media Queries-------------------------*/
+
+@media all and (max-width: 600px) {
+    
+    footer {
+        margin-left: 0%;
+    }
+    
+    #header {
+        margin-left: 20%;
+        
+    } 
+    
+    .teamPersonalityResults {
+        font-size: 0.6em;
+        font-weight: 400;
+        table-layout: none;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 0%;
+        padding-right: 0%;
+        padding-top: 45em;
+        
+        
+        
+        
+        
+    }
+    
+ 
+
+    
+    
+    h3 {
+        font-size: 0.8em;
+        font-weight: 400;
+        
+    }
+    
+    #oldLady {
+        display: flex
+        position: absolute;
+        top: 100px;
+        max-width: 50%;
+        margin-left: 12em;
+        margin-top: -3.5em;
+        margin-bottom: 0em;
+        opacity: 100%;
+        width: 100px;
+        
+        
+        
+        
+        
+    }
+    
+    #oldManPic {
+        position: absolute;
+        top: 100px;
+        max-width: 50%;
+        margin-left: 0.8em;
+        margin-top: -3.8em;
+        margin-bottom: 0em;
+        opacity: 100%;
+        width: 100px;
+        
+        
+    }
+
+    
+}
+
+@media all and (min-width: 601px) and (max-width:992px) {
+    footer {
+        margin-left: 0%;
+    }
+    
+    #header {
+        margin-left: 20%;
+        
+    } 
+    
+    .teamPersonalityResults {
+        font-size: 1em;
+        font-weight: 400;
+        table-layout: none;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 0%;
+        padding-right: auto%;
+        padding-top: 45em;
+        
+        
+        }
+    
+ 
+
+    
+    
+    h3 {
+        font-size: 0.8em;
+        font-weight: 400;
+        
+    }
+    
+    #oldLady {
+        position: absolute;
+        top: 100px;
+        max-width: 50%;
+        margin-left: 25.5em;
+        margin-top: -3.5em;
+        margin-bottom: 0em;
+        opacity: 100%;
+        width: 150px;
+        
+        
+        
+        
+        
+    }
+    
+    #oldManPic {
+        position: absolute;
+        top: 100px;
+        max-width: 50%;
+        margin-left: 2.3em;
+        margin-top: -3.5em;
+        margin-bottom: 0em;
+        opacity: 100%;
+        width: 150px;
+        
+        
+    }
+    
+    
+   
+}
+
+@media all and (min-width: 993px) and (max-width:1200px) {
+    footer {
+        margin-left: 0%;
+    }
+    
+    #header {
+        margin-left: 20%;
+        
+    } 
+    
+    .teamPersonalityResults {
+        font-size: 1em;
+        font-weight: 400;
+        table-layout: none;
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+        padding-left: 0%;
+        padding-right: auto%;
+        padding-top: 45em;
+        
+        
+        }
+    
+ 
+
+    
+    
+    h3 {
+        font-size: 0.8em;
+        font-weight: 400;
+        
+    }
+    
+    #oldLady {
+        position: absolute;
+        top: 100px;
+        max-width: 50%;
+        margin-left: 25.5em;
+        margin-top: -3.5em;
+        margin-bottom: 0em;
+        opacity: 100%;
+        width: 150px;
+        
+        
+        
+        
+        
+    }
+    
+    #oldManPic {
+        position: absolute;
+        top: 100px;
+        max-width: 50%;
+        margin-left: 2.3em;
+        margin-top: -3.5em;
+        margin-bottom: 0em;
+        opacity: 100%;
+        width: 150px;
+        
+        
+    }
+
+
+
+   
+}
+
+
+@media all and (min-width: 1201px) and (max-width:1420px) {
+    footer {
+        margin-left: 0%;
+    }
+    
+    #header {
+        margin-left: 20%;
+        
+    } 
+    
+    .teamPersonalityResults {
+        font-size: 1em;
+        font-weight: 400;
+        table-layout: none;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 0%;
+        padding-right: auto%;
+        padding-top: 45em;
+        
+        
+        }
+    
+ 
+
+    
+    
+    h3 {
+        font-size: 0.8em;
+        font-weight: 400;
+        
+    }
+    
+    #oldLady {
+        position: absolute;
+        top: 100px;
+        max-width: 50%;
+        margin-left: 25.5em;
+        margin-top: -3.5em;
+        margin-bottom: 0em;
+        opacity: 100%;
+        width: 150px;
+        
+        
+        
+        
+        
+    }
+    
+    #oldManPic {
+        position: absolute;
+        top: 100px;
+        max-width: 50%;
+        margin-left: 2.3em;
+        margin-top: -3.5em;
+        margin-bottom: 0em;
+        opacity: 100%;
+        width: 150px;
+        
+        
+    }
+
+   
+
+}
+
+
+
+    
