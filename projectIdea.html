@@ -111,20 +111,139 @@ ToDoTopia provides a platform in which employees can stay motivated and enthused
         <p>Most enterprises these days use some form of third-party web application that tracks work in progress (wip), Such as Atlassian’s Jira, Microsoft’s Azure DevOps and salesforce. The Idea is for the ToDoTopia Computer games platform to link into these applications via there respective API’s. Research will be needed to discover what companies will offer or allow an API integration into their platform but looking into developer documentation both <a href="https://docs.microsoft.com/en-us/azure/devops/integrate/?view=azure-devops">Azure Dev Ops</a> and <a href="https://developer.atlassian.com/cloud/jira/software/rest/intro/">Jira</a> offer some form of third party integration.</p>
         
         <h3>So how does it all work?</h3>
-        <p>When a company decides they wish to gamify their teams work using ToDoTopia they will be able to integrate their workplace productivity, work in progress and time tracking applications. A good example of this would be the <a href="https://docs.microsoft.com/en-us/azure/devops/boards/boards/kanban-quickstart?view=azure-devops">Azure DevOps Kanban Board</a> when a team member completes a task  </p>
+        <p>When a company decides they wish to gamify their teams work using ToDoTopia they will be able to integrate their workplace productivity, work in progress and time tracking applications. A good example of this would be the <a href="https://docs.microsoft.com/en-us/azure/devops/boards/boards/kanban-quickstart?view=azure-devops">Azure DevOps Kanban Board</a></p>
         
-        <p>put image here<br><br>
-        When it comes to work in progress (wip) the Kanban board is king. As you can see the board is broken down into tasks. Each task is numbered (weighted) using story points.</p>
+        <div id="kanbanBoard">
+            <img id="kanbanBoard" src="Images/Kanban_Board.png">
         
-        <h3>Administration areas for Managers</h3>
-        <p>The Administration area for managers is predominantly set about to provide structure to the game. This role has the ability to: </p>
+        </div>
+        
+        <p>When it comes to work in progress (wip) the Kanban board is king. As you can see the board is broken down into tasks. Each task is numbered (weighted) using story points which represent the Effort level of the Task. The range of effort Levels are set by the company and can vary. </p>
+        
+        <h3>Gaining Experiance Points(XP)</h3>
+        <p>ToDoTopia games rely on individual users gaining Experience points or Xp. When a task is completed the user, who completed the task gains Xp. The Xp is allocated to their ToDoTopia profile in the main Web application.  The Xp is directly proportional to the size of the task completed so, for example a task with a story point of 1 could equal 1000Xp and a task with a story point of 5 could equal 5000Xp. Users will also be able to see the Xp they will earn on the task itself (research will be needed to see if the respective API will allow this). 
+        </p>
+        
+        <p>image here</p>
+        
+        <h3>Using Experiance points</h3>
+        <p>When a user logs into the ToDoTopia Games platform they will be able to see all the Experience Points (Xp) they have earned. Users can then use these Experience Points (Xp) towards building objects, such as characters or Armies in the game. </p>
+        
+        <h3>What is the Game</h3>
+        <p>There are many possibilities for the game and over time several different games could be developed. However, as a minimum Viable product (MVP) we have decided to go with a game that people can play off against each other in teams of up to three (So 3v3 or 2v2 1v1). The game is a Real-time strategy game (RTS) where opponents play off against each other with their armies.  Similar types of games would be:</p>
+            
+            <ul>
+                <li><a href="https://en.wikipedia.org/wiki/Company_of_Heroes">Company of Heros</a></li>
+                <li><a href="https://www.badnorth.com/">Bad North</a></li>
+                <li><a href="https://en.wikipedia.org/wiki/Warhammer_40,000:_Dawn_of_War">Dawn of War</a></li>
+            </ul>
+        
+        <div id="dawnOfWarGameplay">
+            <img id="dawnOfWarGameplay" src="Images/dawnOfWarGameplay%20(1).png">
+        
+        </div>
+        
+        <p>While we thought about many possible types of games, City-building games etc. we thought that the possibility of annihilating your co-worker(s) on a Friday after a hard week of work would make for a very satisfying winddown. </p>
+        
+        <h3>Administration roles and users</h3>
+        <p>Within each company space there will be an administration role and each company can set several users to this role. The administration role would generally be reserved for team leads and managers as it will also provide some metrics into a user’s work patterns. </p>
+        <h4>User Area</h4>
         <ul>
-            <li>Manage the game set up in terms of XP</li>
-            <li>Mnagae leader board metrics</li>
-            <li>Manage game set up XP vs wip link to organisation tasks (eg Kanban board) </li>
-            <li>Mange user access e.g restrict assess is someone leaves company </li>
-            <li>User sign ins etc</li>
+            <li>User Profiles
+                <ul>
+                    <h4>Each user has a profile that documents a user’s activities this will include but may not be limited to: </h4>
+                    <li>Name of user</li>
+                    <li>Name of Company</li>
+                    <li>Name of any in game teams they belong to</li>
+                    <li>Experiance points (XP) earned</li>
+                    <li>Experience points (Xp) spent</li>
+                    <li>Experience points (Xp) leftover</li>
+                    <li>Army details for the game (types of units purchesed e.t.c)</li>
+                </ul><br>
+            </li>
+            <li>Army Builder
+             <ul><br>   
+            <li>The army builder is where users can spend Xp to purchase new units, add upgrades to units, repair units etc  </li>
+                 </ul><br>
+                <li>Users army
+                    <ul>
+                        <li>This is an area where a user can view their army (perhaps personalise with a colour picker) and what units they have bought and lost, (could also be a graveyard area) </li>
+                    </ul><br>
+                    <li>Leader Board
+                        <ul>
+                            <li>This would be a companywide leaderbord users would gain points for competing in winning games.  </li>
+                        </ul>
+                        
+            
+            </li>
         </ul>
+        
+        <p>There are many aspects and finer details to the game that will need to be ironed out such as allowing units to gain XP for the user in battle, allowing units to become more powerful and experienced if they survive a battle.  </p>
+        
+        <h3>Administration area for mangers </h3>
+        <p>The Administration area for managers is predominantly set about to provide structure to the game.,<br> This role has the ability to: </p>
+        <ul>
+            <li>Manage the game setup in terms of XP vs WIP
+                <ul>
+                    <li>Managers will be able to specify how much Xp a user will gain per task for example let’s say the company uses a story points value of 1-5 with 5 being hardest and 1 being easiest. Managers will be able to set Xp to match the value of the story points e.g.
+                        <ul>
+                            <li>1 story point = 1000XP</li>
+                            <li>2 story point = 2000XP</li>
+                            <li>3 story point = 3000XP</li>
+                            <li>4 story point = 4000XP</li>
+                            <li>5 story point = 5000XP</li>
+                        </ul>
+                    </li>
+                </ul><br>
+            </li>
+            <li>Administrator leader board metrics
+                <ul>
+                    <li>The provision for managers to see how many Xp a team member as earned and what stories/tasks they worked on to earn Xp could be a useful insight to how their Team member is tracking. It may suggest educational needs and gaps for the employee. </li>
+                </ul><br>
+            </li>
+            <li>Administrator game set up XP  
+                <ul>
+                    <li>Administrator’s will be able to allocate the cost of army units based on how power full the unit is for example
+                        <ul>
+                            <li>Tank = 1000XP</li>
+                            <li>Commando Unit = 500XP</li>
+                            <li>Infantry Unit = 300XP</li>
+                        </ul>
+                    </li>
+                    <li>The idea behind this is to that Xp vs wip can be aligned with the cost of units for the game  </li>
+                    <li>Administrator’s will be able to align Xp with workflow so that only when a piece of work reaches a certain stage (completed, Testing, in-progress etc.) will the Xp be awarded. </li>
+                    <li>Conversely the provision for removing Xp can be added by Administrator so that if  the piece of work goes backwards from say Testing to Bug or back to in-progress Team members could loose Xp. This feature can be turned on or off. </li>
+                </ul>
+                </li>
+            <li>Administrator user access will allow Administrators to do the following: 
+                <ul>
+                    <li>Manage user logins/sign ins</li>
+                    <li>Remove users (should an employee leave</li>
+                    <li>Add new employees</li>
+                </ul>
+            
+            </li>
+        </ul>
+        
+        <h3>Minimum Viable Product (MVP)</h3>
+        <p>The above represents what would be termed a MVP. We have used the Kanban Board for Microsoft’s Azure DevOps as an example, but this could also be integrated with Atlassian’s Jira Kanban Board. Other options for integration could be: </p>
+        <ul>
+            <li><a href="https://developer.salesforce.com/">Salesforce</a></li>
+            <li><a href="https://monday.com/">Monday.com</a></li>
+            <li><a href="https://clickup.com/teams/project-management?utm_source=google&utm_medium=cpc&utm_term=project%20management%20website&targetid=kwd-45391050&utm_campaign=project-management-search-MC-purchase&utm_content=&gclid=Cj0KCQiAuP-OBhDqARIsAD4XHpcuIHuvI7wYZ62DeTyDjUs_7Tp2nvZTLKAYYzACf59OztDezT-iG-4aAsKREALw_wcB">Clickup</a></li>
+            <li><a href="https://www.visual-paradigm.com/">Visual Paradigm</a></li>
+        </ul><br>
+        <p>There are many tools that could be integrated but for a MVP it would be best to start with one or two.<br><br> 
+
+Atlassian have around <a href="https://www.atlassian.com/software/jira/guides/use-cases/who-uses-jira">65,000 + Companies</a> using Jira so the potential market here could be huge. Additionally, they are an incredibly proactive and approachable company and would happily work with you to achieve your goals.<br><br> 
+
+<a href="https://discovery.hgdata.com/product/azure-devops-server">HG Insights</a> tracks currently 56,699 companies using Azure DevOps Server so again potential market here could be huge.<br><br>  
+
+For the creation of a MVP it makes sense to start with their version of a Kanban board and integrate accordingly.  It may be better to target one of the above two first so that the ball gets rolling and a product is created. From here there is no reason that we couldn’t integrate with other planning and management tools and to do lists. </p>
+             
+        
+    
+        
         
         
         
