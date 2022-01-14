@@ -38,7 +38,7 @@ body, html{
     background-color: #333;
     color: #ff69b4;
     float: left;
-    border: 5px solid #white;
+    border: .1em solid white;
     outline: none;
     cursor: pointer;
     padding: 14px 16px;
@@ -55,26 +55,32 @@ body, html{
 /*----Style Tab Content ---*/
 
 .tabcontent{
-    color: lawngreen;
+    color: #00ff00;
     display: none;
-    padding: 100px 20px;
+    padding: 1em;
     height: 100%;
-    font-size: 30px
+    font-size: 30px;
         
 }
 
 /*-----paragraph text-----*/
 
 #paragraphs {
-    color: lawngreen
+    color: #00ff00;
 }
 
 
 /*----------Header--------*/
 #technologyPic {
     max-width: 60%;
-    margin-left: em;
+    margin-left: 0em;
     margin-top: 1.5em;
     margin-bottom: 1.5em;
     opacity: 90%;
+    
+}
+
+a {
+    color: deeppink;
+}
     
