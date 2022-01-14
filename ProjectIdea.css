@@ -10,15 +10,17 @@ body {
 
 
 
-/*----------Header--------*/
+/*----------Headers--------*/
 #header {
-    max-width: 60%;
-    margin-left: 30em;
     margin-top: 1.5em;
     margin-bottom: 1.5em;
     opacity: 75%;
-    
+    margin-left: auto;
+    margin-right: auto;
+}
 
+h1, h2, h3 {
+    text-align: center;
 }
 
 /*------ Font -----*/
@@ -33,24 +35,56 @@ body, html{
     font-family: lato, sans-serif;
 }
 
+/*----------Links----------*/
+
+a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: lawngreen;
+}
+
+p, ul, ol {
+    font-size: 18px;
+}
+
+/*------Images------*/
+img {
+    display: block;
+    max-width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
 /*----------Main Tab Style--------*/
 
-.tablink{
+#tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+.tablink {
     background-color: #333;
-    color: #ff69b4;
     float: left;
-    border: 5px solid #white;
+    border: none;
     outline: none;
     cursor: pointer;
     padding: 14px 16px;
-    font-size: 17px;
+    transition: 0.3s;
     width: 20%;
-    
-        
+    color: #ff69b4;
 }
 
-.tablink:hover{
-    background-color: #777;
+.tablink:hover {
+    background-color: #ddd;
+}
+
+.tablink:active {
+    background-color: #ccc;
 }
 
 /*----Style Tab Content ---*/
@@ -58,50 +92,68 @@ body, html{
 .tabcontent{
     color: lawngreen;
     display: none;
-    padding: 100px 20px;
+    padding: 10%;
     height: 100%;
     font-size: 30px
-        
+}
+
+#mainArea {
+    padding-bottom: 1%;
 }
 
 /*-----paragraph text-----*/
 
 #paragraphs {
-    color: white
+    color: white;
 }
-
-
-/*------astromanpicture-----*/
 
 #astroman {
     max-width: 60%;
-    margin-left: 30em;
+    /* margin-left: 30em;
     margin-top: 1.5em;
-    margin-bottom: 1.5em;
+    margin-bottom: 1.5em; */
     opacity: 75%;
-}
-
-#octo {
-  max-width: 60%;
-    margin-right: 20em;
-    margin-top: 1.em;
-    margin-bottom: 1.em;
-     
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #toDoTopiaPic {
-    position: center;
-    top: 100px;
     max-width: 50%;
-    margin-left: 20em;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 1.em;
     margin-bottom: 1.em;
-    opacity: 75%;
-    
-    
+    opacity: 75%; 
 }
 
-#XP_Clip {
-    width: 200px;
-    position: center;
+
+/*----------MEDIA QUERIES----------*/
+
+@media (max-width: 600px) {
+    img {
+        float: none;
+    }
+
+}
+
+@media (min-width: 800px) {
+    img {
+        float: right;
+        width: 50%;
+        padding: 18px;
+    }
+
+    #astroman {
+        float: none;
+    }
+
+    #header {
+        float: none;
+    }
+
+    #toDoTopiaPic {
+        float: none;
+        max-width: 50%;
+    }
+    
 }
