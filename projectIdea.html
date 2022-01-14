@@ -22,12 +22,13 @@
     </div>
     
     <!------- Main Tab Buttons --->
-    
-    <button class="tablink" onclick="openpage(event, 'Overview')" id="defaultOpen">Overview</button>
-    <button class="tablink" onclick="openpage(event, 'Motivation')">Motivation</button>
-    <button class="tablink" onclick="openpage(event, 'Description')">Description</button>
-    <button class="tablink" onclick="openpage(event, 'Tools and Tech Skills')">Tools and Tech Skills</button>
-    <button class="tablink" onclick="openpage(event, 'Outcome')">Outcome</button>
+    <div id="tab">
+        <button class="tablink" onclick="openpage(event, 'Overview')" id="defaultOpen">Overview</button>
+        <button class="tablink" onclick="openpage(event, 'Motivation')">Motivation</button>
+        <button class="tablink" onclick="openpage(event, 'Description')">Description</button>
+        <button class="tablink" onclick="openpage(event, 'Tools and Tech Skills')">Tools and Tech Skills</button>
+        <button class="tablink" onclick="openpage(event, 'Outcome')">Outcome</button>
+    </div>
     
     <div id="projectideaheader">
     <img id="header" src="Images/ProjectIdea.png">
@@ -42,25 +43,29 @@
 <!--------- Tab Contents ----->
     
 
-    
+  <div id = "mainArea">    
     
    <div id="Overview" class="tabcontent">
     <h3>What is ToDoTopia?</h3>
     <div id="paragraphs">   
-    <p>The Aim is to build a web-based application that links into workplace productivity, work in progress and time tracking applications to gamify Individual employee and team workloads. The application will ultimately be a web- based computer games platform that allows users to gain experience points (xp) for work done. By gamifying daily work tasks employees and Teams are incentivized by gaining experience points (Xp) to use towards building objects, such as characters or Armies in a computer game. The idea is not only to incentivize teams and help increase productivity but to foster a friendly but competitive workplace.  Individuals can play off against team members with the characters or Armies they have built up through completing work tasks over time. Workplaces could host a “game-off” as part of a weekly/monthly winddown or after a sprint or after a project go live.  </p>
+    <p>The aim is to build a web-based application that links into workplace productivity, work in progress and time tracking applications to gamify Individual employee and team workloads. The application will ultimately be a web- based computer games platform that allows users to gain experience points (xp) for work done. By gamifying daily work tasks employees and Teams are incentivized by gaining experience points (Xp) to use towards building objects, such as characters or Armies in a computer game. The idea is not only to incentivize teams and help increase productivity but to foster a friendly but competitive workplace.  Individuals can play off against team members with the characters or Armies they have built up through completing work tasks over time. Workplaces could host a “game-off” as part of a weekly/monthly winddown or after a sprint or after a project go live.  </p>
         
-        <div id=toDoTopiaPic>
-            <img src="Images/ToDoTopia%20(1).png">
-        
+        <div>
+            <img id="toDoTopiaPic" src="Images/ToDoTopia%20(1).png" alt="ToDoTopia">
         </div>
     </div> 
     </div> 
     <div id="Motivation" class="tabcontent">
     <h3>Why Gamification</h3>
     <div id="paragraphs">   
-    <p>Gamification of tasks is not necessarily a new idea, Companies such as Habitica have been doing it for a while now in a way of making your daily task and activities rewarding by giving you a character who starts at level one and has no items. The idea is that you self-appoint yourself tasks and as you complete those tasks you are rewarded with better equipment to help your character progress. However, these applications are more on an individual basis and the game play is limited. Keeping a team motivated during a project can be difficult, but gamification has shown to keep the attention of employees and increase their productivity.</p>  
+    <p>Gamification of tasks is not necessarily a new idea, Companies such as Habitica have been doing it for a while now in a way of making your daily task and activities rewarding by giving you a character who starts at level one and has no items. The idea is that you self-appoint yourself tasks and as you complete those tasks you are rewarded with better equipment to help your character progress. However, these applications are more on an individual basis and the game play is limited. Keeping a team motivated during a project can be difficult, but gamification has shown to keep the attention of employees and increase their productivity.</p>
 
         <p>What is gamification? Gamification at its core is turning work into play. There is a model known as Octalysis that explains in detail the eight core drives that gamify something whether it be a task at work or a video game.  </p>
+
+        <div>
+            <img id="octo" src="Images/octagon.png">
+        </div>
+
         <p>These eight core drives are listed below:</p>
                         <ul>
                             <li>Epic Meaning and calling </li>
@@ -74,15 +79,11 @@
                        </ul>
         </div>
     
-        
-    <div id="octo">
-    <img id="octo" src="Images/octagon.png">
-        </div>
         <div id="paragraphs">
         <p>Every good game consists of these eight properties, and they can be used to motivate people and keep them focused. This is the motivation for ToDoTopia, to use gamification to turn completing tasks in a Jira Kanban board into a game.<p> 
             
 
-<h3>Some Articles on Gamification:</h3>
+<h4>Some Articles on Gamification:</h3>
        <div id="paragraphs"> 
         <ul>
             <li><a href="https://www.gamify.com/what-is-gamification#gamification2/">What is Gamification?</a></li>
@@ -273,7 +274,8 @@ Regarding the skills listed above, our team requires a lot of improvement. Skill
         
         </div>
     </div>
-    
+
+  </div>  
     
 <script src="projectIdea.js"></script>
     
