@@ -19,9 +19,11 @@ function openpage(evt, memberName) {
     evt.currentTarget.className += " active";
 
     //Hide h1 element onclick of team member name 
-    var x = document.getElementById("projectideaheader"); {
+    /*
+        var x = document.getElementById("Graffiti IT Tech Header"); {
         x.style.display = "none";
     }
+    */
     
    //Hide h1 element onclick of tech pic 
     var x = document.getElementById("technologyPic"); {
