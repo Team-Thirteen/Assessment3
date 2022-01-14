@@ -89,3 +89,14 @@ body, html{
      
 }
 
+#toDoTopiaPic {
+    position: relative;
+    top: 100px;
+    max-width: 50%;
+    margin-left: 20em;
+    margin-top: 1.em;
+    margin-bottom: 1.em;
+    opacity: 75%;
+    
+    
+}

@@ -94,9 +94,9 @@ opacity: 65%;
     margin-right: 10%;
     font-size: 1em;
     font-weight: 600;
-    padding-left: 1em;
+    padding-left: 5em;
     width: 100%;
-    margin-top: 1em;
+    margin-top: -45em;
     margin-bottom: 1em;
 }
 
@@ -149,3 +149,42 @@ th {
     text-align: center
     
 }
+
+#oldManPic {
+    position: relative;
+    top: 100px;
+    max-width: 50%;
+    margin-left: 2em;
+    margin-top: 1.em;
+    margin-bottom: 1.em;
+    opacity: 100%;
+    width: 460px
+    
+        
+}
+
+#oldManPic {
+
+border: 0;
+
+}
+
+#oldLady {
+    position: relative;
+    top: 340px;
+    max-width: 50%;
+    margin-left: 68em;
+    margin-top: 1.em;
+    margin-bottom: 1.em;
+    opacity: 100%;
+    width: 460px
+    
+        
+}
+
+#oldLady {
+
+border: 0;
+
+}
+
