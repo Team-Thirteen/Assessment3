@@ -66,19 +66,7 @@ footer{
    
 }
 
-.copy {   
-    display: inline-flex;
-opacity: 65%;
-}
-    
 
-
-.copy p{
-    color: #00ff00;
-    text-shadow: 2px 2px 1px black;    
-    margin-right: .2em; 
-   
-}
 
 /*--------TeamProfileResults---------*/
 
@@ -87,7 +75,7 @@ opacity: 65%;
             
 }
 
-.teamPersonalityResults {
+.teamPersonalityResults table{
 
     border-collapse: collapse;
     margin-left: 10%;
@@ -129,15 +117,15 @@ th {
 
 .mainPageParagraph {
     
-    color: #00ff00;
+
     font-size: 2em;
-    text-align: left
+    text-align: center;
     
 }
 
 .commonElements {
     
-    color: #00ff00;
+ text-align: center;
     font-size: 2em;
     
 }
