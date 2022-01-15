@@ -1,7 +1,7 @@
 body {
     background-image: url(Images/brickworkBackground.jpg);
     color: white;
-    font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
+    font-family: sans-serif;
 }
 
 .accordion {
@@ -115,11 +115,7 @@ body {
 
 /* Button to video  */
 
-* {
-    font-family: sans-serif;
-    letter-spacing: 4px;
-    background-color: transparent;
-}
+
 
 .container1 {
     display: flex;
