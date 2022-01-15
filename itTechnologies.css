@@ -4,9 +4,6 @@ body, html {
     color: white;
     font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
     background-image: url(Images/brickworkBackground.jpg);
-    
-    height: 100%;
-    margin: 0;
 }
 
 
@@ -192,8 +189,8 @@ a:hover {
 .tabcontent{
     color: white;
     display: none;
-    padding: 100px 20px;
+    padding: 1em;
     height: 100%;
-    font-size: 30px
+    font-size: 30px;
         
 }
