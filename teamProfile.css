@@ -79,11 +79,14 @@ footer{
 
     border-collapse: collapse;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: auto
     font-size: 1em;
     font-weight: 600;
     width: 100%;
-    padding-left: em;
+    margin-top: 6em;
+     
+        
+    
     
    
 }
@@ -141,9 +144,9 @@ th {
 #oldManPic {
     float: left;
     display: block;
-    width: 10em;
-    margin-top: -8em;
-    margin-left: 5em
+    width: 7%;
+    margin-top: -10%;
+    margin-left: 10%
     
         
 }
@@ -157,9 +160,9 @@ border: 0;
 #oldLady {
     float: right;
     display: block;
-    width: 10em;
-    margin-top: -8em;
-    margin-right: 5em
+    width: 7%;
+    margin-top: -10%;
+    margin-right: 10%
     
         
 }
@@ -176,104 +179,59 @@ border: 0;
     
     footer {
         margin-left: 0%;
+        
     }
     
     #header {
         margin-left: 20%;
         
-    } 
-    
-    .teamPersonalityResults {
-        font-size: 0.6em;
-        font-weight: 400;
-        table-layout: none;
-        width: 100%;
-        margin-left: auto;
-        margin-right: auto;
-        padding-left: 0%;
-        padding-right: 0%;
-        padding-top: 45em;
-        
-        
-        
-        
-        
-    }
-    
- 
-
-    
-    
-    h3 {
-        font-size: 0.8em;
-        font-weight: 400;
-        
-    }
-    
-    #oldLady {
-        
-        
-        
-        
-        
-        
     }
     
     #oldManPic {
+        margin-top: -17%;
+    }
+    
+    #oldLady {
+        margin-top: -17%;
+    }
+    
+    .teamPersonalityResults {
         
-        
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 56%;
+        font-weight: 600
         
     }
+    
 
     
 }
 
 @media all and (min-width: 601px) and (max-width:992px) {
+    
     footer {
         margin-left: 0%;
     }
     
     #header {
-        margin-left: 20%;
-        
-    } 
-    
-    .teamPersonalityResults {
-        font-size: 1em;
-        font-weight: 400;
-        table-layout: none;
-        width: 100%;
-        margin-left: auto;
-        margin-right: auto;
-        padding-left: 0%;
-        padding-right: auto%;
-        padding-top: 45em;
-        
-        
-        }
-    
- 
-
-    
-    
-    h3 {
-        font-size: 0.8em;
-        font-weight: 400;
-        
-    }
-    
-    #oldLady {
-        
-        
-        
-        
-        
-        
+        margin-left: 20%
     }
     
     #oldManPic {
+        margin-top: -15%
+    }
+    
+    #oldLady {
+        margin-top: -15%
+    }
+    
+    .teamPersonalityResults {
         
-        
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 80%;
+        font-weight: 600
         
     }
     
@@ -281,54 +239,32 @@ border: 0;
    
 }
 
-@media all and (min-width: 993px) and (max-width:1200px) {
+@media all and (min-width: 992px) and (max-width:1200px) {
     footer {
         margin-left: 0%;
     }
     
     #header {
-        margin-left: 20%;
-        
-    } 
-    
-    .teamPersonalityResults {
-        font-size: 1em;
-        font-weight: 400;
-        table-layout: none;
-        width: 100%;
-        margin-left: 0;
-        margin-right: 0;
-        padding-left: 0%;
-        padding-right: auto%;
-        padding-top: 45em;
-        
-        
-        }
-    
- 
-
-    
-    
-    h3 {
-        font-size: 0.8em;
-        font-weight: 400;
-        
-    }
-    
-    #oldLady {
-        
-        
-        
-        
-        
-        
+        margin-left: 20%
     }
     
     #oldManPic {
+        margin-top: -13%
+    }
+    
+    #oldLady {
+        margin-top: -13%
+    }
+    
+    .teamPersonalityResults {
         
-        
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 80%;
+        font-weight: 600
         
     }
+    
 
 
 
@@ -336,56 +272,126 @@ border: 0;
 }
 
 
-@media all and (min-width: 1201px) and (max-width:1420px) {
+@media all and (min-width: 1200px) and (max-width:1450px) {
+    
     footer {
         margin-left: 0%;
     }
     
     #header {
-        margin-left: 20%;
-        
-    } 
-    
-    .teamPersonalityResults {
-        font-size: 1em;
-        font-weight: 400;
-        table-layout: none;
-        width: 100%;
-        margin-left: auto;
-        margin-right: auto;
-        padding-left: 0%;
-        padding-right: auto%;
-        padding-top: 45em;
-        
-        
-        }
-    
- 
-
-    
-    
-    h3 {
-        font-size: 0.8em;
-        font-weight: 400;
-        
-    }
-    
-    #oldLady {
-        
-        
-        
-        
-        
+        margin-left: 20%
     }
     
     #oldManPic {
+        margin-top: -12.5%
+    }
+    
+    #oldLady {
+        margin-top: -12.5%
+    }
+    
+    .teamPersonalityResults {
         
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 100%;
+        font-weight: 600;
         
         
     }
+    
 
    
 
+}
+
+@media all and (min-width: 1450px) and (max-width: 1720px) {
+    
+    footer {
+        margin-left: 0%;
+    }
+    
+    #header {
+        margin-left: 20%
+    }
+    
+    #oldManPic {
+        margin-top: -12.5%
+    }
+    
+    #oldLady {
+        margin-top: -12.5%
+    }
+    
+    .teamPersonalityResults {
+        
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 100%;
+        font-weight: 600;
+        
+        
+    }
+    
+    
+    
+}
+
+@media all and (min-width: 1720px) and (max-width: 2000px) {
+     footer {
+        margin-left: 0%;
+    }
+    
+    #header {
+        margin-left: 20%
+    }
+    
+    #oldManPic {
+        margin-top: -12.5%
+    }
+    
+    #oldLady {
+        margin-top: -12.5%
+    }
+    
+    .teamPersonalityResults {
+        
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 100%;
+        font-weight: 600;
+        
+        
+    }
+}
+
+@media all and (min-width: 2000px) and (max-width: 2200px) {
+    footer {
+        margin-left: 0%;
+    }
+    
+    #header {
+        margin-left: 20%
+    }
+    
+    #oldManPic {
+        margin-top: -12.5%
+    }
+    
+    #oldLady {
+        margin-top: -12.5%
+    }
+    
+    .teamPersonalityResults {
+        
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 100%;
+        font-weight: 600;
+        
+        
+    }
+    
 }
 
 
