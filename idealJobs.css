@@ -66,7 +66,7 @@ body {
 
 .idealJobTableForTeam {
     display: flex;
-            
+
 }
 
 .idealJobTableForTeam table {
@@ -92,7 +92,7 @@ th,
 td {
     overflow-x: auto;
     border: 0.1em solid #ff64b4;
-    
+
 }
 
 td {
@@ -101,25 +101,23 @@ td {
 }
 
 th {
-    
+
     color: #00ff00;
     font-size: 2em;
-    
+
 }
 
 .commonElements {
-    
-    color: #00ff00;
+
     font-size: 2em;
 }
 
 .whatDifferentiates {
-    color: #00ff00;
     font-size: 2em;
     margin-bottom: 10%;
 }
 
-footer{
+footer {
     margin-bottom: 10%;
 }
 
@@ -128,156 +126,153 @@ footer{
 /*-------------------------Media Queries-------------------------*/
 
 @media all and (max-width: 600px) {
-    
+
     footer {
         margin-left: 0%;
-        
+
     }
-    
+
     #header {
         margin-left: 20%;
-        
+
     }
-    
-    
-    
+
+
+
     .idealJobTableForTeam {
-        
+
         margin-left: auto;
         margin-right: auto;
         font-size: 56%;
         font-weight: 600
-        
     }
-    
 
-    
+
+
 }
 
 @media all and (min-width: 601px) and (max-width:992px) {
-    
+
     footer {
         margin-left: 0%;
     }
-    
+
     #header {
         margin-left: 20%
     }
-    
-    
-    
+
+
+
     .idealJobTableForTeam {
-        
+
         margin-left: auto;
         margin-right: auto;
         font-size: 80%;
         font-weight: 600
-        
     }
-    
-    
-   
+
+
+
 }
 
 @media all and (min-width: 992px) and (max-width:1200px) {
     footer {
         margin-left: 0%;
     }
-    
+
     #header {
         margin-left: 20%
     }
-    
-    
-    
+
+
+
     .idealJobTableForTeam {
-        
+
         margin-left: auto;
         margin-right: auto;
         font-size: 80%;
         font-weight: 600
-        
     }
-    
 
 
 
-   
+
+
 }
 
 
 @media all and (min-width: 1200px) and (max-width:1450px) {
-    
+
     footer {
         margin-left: 0%;
     }
-    
+
     #header {
         margin-left: 20%
     }
-    
-    
-    
+
+
+
     .idealJobTableForTeam {
-        
+
         margin-left: auto;
         margin-right: auto;
         font-size: 100%;
         font-weight: 600;
-        
-        
-    }
-    
 
-   
+
+    }
+
+
+
 
 }
 
 @media all and (min-width: 1450px) and (max-width: 1720px) {
-    
+
     footer {
         margin-left: 0%;
     }
-    
+
     #header {
         margin-left: 20%
     }
-    
-    
-    
+
+
+
     .idealJobTableForTeam {
-        
+
         margin-left: auto;
         margin-right: auto;
         font-size: 100%;
         font-weight: 600;
-        
-        
+
+
     }
-    
-    
-    
+
+
+
 }
 
 @media all and (min-width: 1720px) and (max-width: 2000px) {
-     footer {
+    footer {
         margin-left: 0%;
     }
-    
+
     #header {
         margin-left: 20%
     }
-    
-    
-    
+
+
+
     .idealJobTableForTeam {
-        
+
         margin-left: auto;
         margin-right: auto;
         font-size: 100%;
         font-weight: 600;
-        
-        
+
+
     }
 }
 
@@ -285,21 +280,21 @@ footer{
     footer {
         margin-left: 0%;
     }
-    
+
     #header {
         margin-left: 20%
     }
-    
-    
-    
+
+
+
     .idealJobTableForTeam {
-        
+
         margin-left: auto;
         margin-right: auto;
         font-size: 100%;
         font-weight: 600;
-        
-        
+
+
     }
-    
+
 }
