@@ -1,5 +1,5 @@
-/* APPEARANCE */
-body {
+/*------ - APPEARANCE - ------*/
+body, html {
     background: #333;
     color: white;
     font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
@@ -7,80 +7,190 @@ body {
 }
 
 
-
-
-/*----------Header--------*/
+/*--------- - Headers - -------*/
 #header {
     max-width: 60%;
     margin-left: 30em;
     margin-top: 1.5em;
     margin-bottom: 1.5em;
     opacity: 75%;
-    
+}
+
+#technologyPic {
+    max-width: 60%;
+    margin-left: 0em;
+    margin-top: 3em;
+    opacity: 90%;
+}
+
+.heading {
 
 }
 
-/*------ Font -----*/
+h1 {
 
-*{
-    box-sizing: border-box;
+    color: lawngreen;
+    text-align: center;
+    text-shadow: 4px 4px 2px rgba(0,0,0, 0.8);  
+    background-color: rgba(51,51,51, 0.8);
+    background-size: contain;
+    padding-top: 1px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    margin: 10px;
+    border: 11px;
+    border-style: ridge;
+    border-color: #ff69b4;
 }
 
-body, html{
-    height: 100%;
-    margin: 0;
-    font-family: lato, sans-serif;
+h2 {    
+    color: lawngreen;
+    text-align: center;
+    float: left 10px;
+    text-shadow: 4px 4px 2px rgba(0,0,0, 0.8);  
+    background-color: rgba(51,51,51, 0.8);
+    background-size: contain;
+    padding-top: 1px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    margin: 10px;
+    border: 4px;
+    border-style: ridge;
+    border-color: #ff69b4;
 }
+
+h3 {
+    color:lawngreen;
+    text-align: center;
+    text-shadow: 4px 4px 2px rgba(0,0,0, 0.8);  
+    background-color: rgba(51,51,51, 0.8);
+    background-size: contain;
+    padding-top: 15px;
+    padding-right: 10px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    margin: 10px;
+    border: 5px;
+    border-style: ridge;
+    border-color: #ff69b4;
+}
+
+h4 {    
+    color:lawngreen;
+    text-align: center;
+    text-shadow: 4px 4px 2px rgba(0,0,0, 0.8);  
+    background-color: rgba(51,51,51, 0.8);
+    background-size: contain;
+    padding-top: 1px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    margin: 10px;
+    border: 3px;
+    border-style: ridge;
+    border-color: #ff69b4;
+}
+
+/*----- - Body - -----*/
+
+p {
+    color: white;
+    text-align: justify;
+    text-shadow: 4px 4px 2px rgba(0,0,0, 0.9);
+}
+
+abbr {
+    font-style: italic;
+    color: #FEECF7;
+    text-decoration: 1px underline;
+}
+
+blockquote {
+    color:  #b0fd66;
+    text-shadow: 4px 4px 2px rgba(0,0,0, 0.9);
+}
+
+/* Container for text */
+.box {
+    background-color: rgba(51,51,51, 0.44);
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    margin: 10px;
+    border-style: groove;
+    border-color: #ff69b4;
+}
+
+/*-------- - Lists - ------*/
+
+ul {
+    color: white;
+    text-decoration-style: dotted;
+    text-shadow: 4px 4px 2px rgba(0,0,0, 0.9);
+    list-style-type: square
+}
+
+dl, dd {
+    color: white;
+    text-decoration-style: dotted;
+    text-shadow: 4px 4px 2px rgba(0,0,0, 0.9);
+    list-style-type: square
+}
+
+dt {
+    color: #b0fd66	;
+    text-decoration: 1px underline;
+}
+
+/*--------- Hyperlinks -------*/
+
+a {
+    color: #FEECF7;
+    font-style: italic;
+    text-decoration: 2px underline;
+}
+
+a:hover {
+    color: #ff69b4;
+}
+
+/*--------- References -------*/
+.reference {
+    font-style: oblique;
+    text-align: center;
+    line-height: 1.8;
+}
+
 
 /*----------Main Tab Style--------*/
 
-.tablink{
+.tablink {
     background-color: #333;
     color: #ff69b4;
     float: left;
-    border: .1em solid white;
+    border: 0.5px solid #ff69b4;
     outline: none;
     cursor: pointer;
     padding: 14px 16px;
     font-size: 17px;
     width: 25%;
-    
-        
 }
 
-.tablink:hover{
+.tablink:hover {
     background-color: #777;
+    color: lawngreen;
 }
 
 /*----Style Tab Content ---*/
 
 .tabcontent{
-    color: #00ff00;
+    color: white;
     display: none;
     padding: 1em;
     height: 100%;
     font-size: 30px;
         
 }
-
-/*-----paragraph text-----*/
-
-#paragraphs {
-    color: #00ff00;
-}
-
-
-/*----------Header--------*/
-#technologyPic {
-    max-width: 60%;
-    margin-left: 0em;
-    margin-top: 1.5em;
-    margin-bottom: 1.5em;
-    opacity: 90%;
-    
-}
-
-a {
-    color: deeppink;
-}
-    
