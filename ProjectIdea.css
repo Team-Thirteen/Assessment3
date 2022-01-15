@@ -21,9 +21,10 @@ body {
 
 h1, h2, h3 {
     text-align: center;
+    color: #00ff00;
 }
 
-/*------ Font -----*/
+
 
 
 
@@ -33,6 +34,7 @@ a {
     color: white;
     text-decoration: none;
     font-weight: bold;
+    text-decoration: underline;
 }
 
 a:hover {
@@ -56,7 +58,7 @@ img {
 #tab {
     overflow: hidden;
     border: 1px solid #ccc;
-    background-color: #f1f1f1;
+    background-color: #333;
 }
 
 .tablink {
@@ -69,6 +71,7 @@ img {
     transition: 0.3s;
     width: 20%;
     color: #ff69b4;
+    
 }
 
 .tablink:hover {
@@ -82,7 +85,7 @@ img {
 /*----Style Tab Content ---*/
 
 .tabcontent{
-    color: #00ff00;
+    color: white;
     display: none;
     padding: 10%;
     height: 100%;
@@ -100,10 +103,7 @@ img {
 }
 
 #astroman {
-    max-width: 60%;
-    /* margin-left: 30em;
-    margin-top: 1.5em;
-    margin-bottom: 1.5em; */
+    max-width: 60%;  
     opacity: 75%;
     margin-left: auto;
     margin-right: auto;
@@ -124,7 +124,8 @@ img {
 @media (max-width: 600px) {
     img {
         float: none;
-    }
+    } 
+
     
 
 }
