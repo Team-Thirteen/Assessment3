@@ -5,6 +5,7 @@ body {
     color: white;
     font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
     background-image: url(Images/brickworkBackground.jpg);
+    
 }
 
 
@@ -22,6 +23,7 @@ body {
 h1, h2, h3 {
     text-align: center;
     color: #00ff00;
+    font-size: 3em;
 }
 
 
@@ -84,12 +86,26 @@ img {
 
 /*----Style Tab Content ---*/
 
-.tabcontent{
-    color: white;
+.tabcontent {
     display: none;
     padding: 10%;
     height: 100%;
-    font-size: 30px
+    
+}
+
+#references p{
+    font-size: 1em;
+    background-color:  gainsboro; opacity: 0.8;
+    padding: 0.5em;
+    color: #333;
+    border: .2em solid #ff69b4;
+    font-weight: 800;
+    
+}
+
+.paragraphs p{
+    font-size: 2em;
+    font-weight: 600;
 }
 
 #mainArea {
@@ -98,9 +114,7 @@ img {
 
 /*-----paragraph text-----*/
 
-#paragraphs {
-    color: white;
-}
+
 
 #references {
     color: lightgray;
@@ -130,6 +144,8 @@ img {
     margin-bottom: 1.em;
     opacity: 75%; 
 }
+
+
 
 
 /*----------MEDIA QUERIES----------*/
