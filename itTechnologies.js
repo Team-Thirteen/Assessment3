@@ -20,7 +20,7 @@ function openpage(evt, memberName) {
 
     //Hide h1 element onclick of team member name 
     /*
-        var x = document.getElementById("Graffiti IT Tech Header"); {
+        var x = document.getElementById("GraffitiTech"); {
         x.style.display = "none";
     }
     */
