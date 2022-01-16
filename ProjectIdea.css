@@ -5,6 +5,7 @@ body {
     color: white;
     font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
     background-image: url(Images/brickworkBackground.jpg);
+    
 }
 
 
@@ -21,9 +22,11 @@ body {
 
 h1, h2, h3 {
     text-align: center;
+    color: #00ff00;
+    font-size: 3em;
 }
 
-/*------ Font -----*/
+
 
 
 
@@ -33,6 +36,7 @@ a {
     color: white;
     text-decoration: none;
     font-weight: bold;
+    text-decoration: underline;
 }
 
 a:hover {
@@ -56,7 +60,7 @@ img {
 #tab {
     overflow: hidden;
     border: 1px solid #ccc;
-    background-color: #f1f1f1;
+    background-color: #333;
 }
 
 .tablink {
@@ -69,6 +73,7 @@ img {
     transition: 0.3s;
     width: 20%;
     color: #ff69b4;
+    
 }
 
 .tablink:hover {
@@ -81,12 +86,26 @@ img {
 
 /*----Style Tab Content ---*/
 
-.tabcontent{
-    color: #00ff00;
+.tabcontent {
     display: none;
     padding: 10%;
     height: 100%;
-    font-size: 30px
+    
+}
+
+#references p{
+    font-size: 1em;
+    background-color:  gainsboro; opacity: 0.8;
+    padding: 0.5em;
+    color: #333;
+    border: .2em solid #ff69b4;
+    font-weight: 800;
+    
+}
+
+.paragraphs p{
+    font-size: 2em;
+    font-weight: 600;
 }
 
 #mainArea {
@@ -95,15 +114,23 @@ img {
 
 /*-----paragraph text-----*/
 
-#paragraphs {
-    color: white;
+
+
+#references {
+    color: lightgray;
+    size: 18px;
+}
+
+#references a {
+    color: limegreen;
+}
+
+#reference a:hover {
+    color: limegreen;
 }
 
 #astroman {
-    max-width: 60%;
-    /* margin-left: 30em;
-    margin-top: 1.5em;
-    margin-bottom: 1.5em; */
+    max-width: 60%;  
     opacity: 75%;
     margin-left: auto;
     margin-right: auto;
@@ -119,12 +146,15 @@ img {
 }
 
 
+
+
 /*----------MEDIA QUERIES----------*/
 
 @media (max-width: 600px) {
     img {
         float: none;
-    }
+    } 
+
     
 
 }
